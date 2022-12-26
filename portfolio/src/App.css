@@ -10,3 +10,13 @@
     @apply z-10 py-3 px-4 bg-gradient-to-br from-teal-300 to-blue-300 text-white font-semibold rounded-full shadow-md hover:bg-blue-400 hover:border-r-4 hover:border-t-4 hover:border-l-4 hover:border-b-4 transition-all border-blue-100 focus:outline-none focus:ring-2 focus:ring-white;
   }
 }
+
+@font-face {
+  font-family: kilo;
+  src: url("font/Kilo.otf") format("opentype");
+}
+
+@font-face {
+  font-family: jiro;
+  src: url("font/Jiro.otf") format("opentype");
+}

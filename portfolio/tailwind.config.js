@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nsl: ["Noto Sans Lao", "sans-serif"],
+        jiro: ["jiro", "opentype"],
+        kilo: ["kilo", "opentype"],
       },
       colors: {
         // #FFEF77   Yelow *Corn
