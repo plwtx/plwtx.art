@@ -18,7 +18,14 @@ module.exports = {
           Yelow: "#FFEF77",
           Reink: "#FF0066",
           Bluwska: "#0033FF",
-          Greey: "CFEACE",
+          Greey: "#CFEACE",
+
+          //Len New colors
+
+          Purple: "#645DDF",
+          Green: "#ABFF4F",
+          White: "#E9F1F7",
+          Black: "#131B23",
         },
       },
     },
