@@ -5,8 +5,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        jiro: ["jiro", "opentype"],
-        kilo: ["kilo", "opentype"],
+        Jiro: ["jiro", "opentype"],
+        Kilo: ["kilo", "opentype"],
+        Digi: ["Digi", "opentype"],
+        Cry: ["Cry", "opentype"],
+        BSP: ["BSP", "opentype"],
+        Chin: ["Chin", "opentype"],
+        Hexa: ["Hexa", "opentype"],
+        Kilo: ["kilo", "opentype"],
       },
       colors: {
         // #FFEF77   Yelow *Corn
