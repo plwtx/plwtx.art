@@ -12,11 +12,21 @@ import "./App.css";
 function App() {
   return (
     <div className="">
-      <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">
-        <h1 className="text-len-White py-36 font-Hexa text-[10rem]">
-          0x4c656e7a
+      <section className=" min-h-screen bg-len-Black">
+        <h1 className="text-len-White p-9 font-Hexa text-[3rem]">
+          0x706c777478
         </h1>
-        <svg
+        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">
+          0x6D656E750A
+        </h1>
+        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">0x617274</h1>
+        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">
+          0x68656B7375
+        </h1>
+        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">
+          0x70726F6F66
+        </h1>
+        {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -29,7 +39,7 @@ function App() {
             strokeLinejoin="round"
             d="M19.5 8.25l-7.5 7.5-7.5-7.5"
           />
-        </svg>
+        </svg> */}
       </section>
       <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">
         <h4 className="text-len-White text-center py-36 font-Hexa text-sm">
