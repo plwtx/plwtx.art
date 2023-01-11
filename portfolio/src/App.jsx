@@ -1,4 +1,5 @@
 import "./App.css";
+import woikuto from "./img/woikuto.png";
 <link href="/dist/output.css" rel="stylesheet"></link>;
 
 // To do list
@@ -13,19 +14,10 @@ function App() {
   return (
     <div className="">
       <section className=" min-h-screen bg-len-Black">
-        <h1 className="text-len-White p-9 font-Hexa text-[3rem]">
-          0x706c777478
+        <h1 className="text-len-White p-9 font-Kirieiji text-[5rem]">
+          0x706C777478
         </h1>
-        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">
-          0x6D656E750A
-        </h1>
-        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">0x617274</h1>
-        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">
-          0x68656B7375
-        </h1>
-        <h1 className="text-len-White py-3 font-Hexa text-[2rem]">
-          0x70726F6F66
-        </h1>
+        <img className=" fixed bottom-0 right-0 w-[50%]" src={woikuto} />
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

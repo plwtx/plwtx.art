@@ -45,3 +45,35 @@
   font-family: Cry;
   src: url("font/crystal.ttf") format("opentype");
 }
+
+/* Japanese Fonts */
+
+@font-face {
+  font-family: Kirieiji;
+  src: url("font/kirieji04.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: UIJP;
+  src: url("font/uijp.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Makinas;
+  src: url("font/Makinas-4-Flat.otf") format("opentype");
+}
+
+@font-face {
+  font-family: LineR;
+  src: url("font/LINESeedJP_OTF_Rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: LineT;
+  src: url("font/LINESeedJP_OTF_Th.otf") format("opentype");
+}
+
+@font-face {
+  font-family: LineB;
+  src: url("font/LINESeedJP_OTF_Eb.otf") format("opentype");
+}

@@ -12,7 +12,13 @@ module.exports = {
         BSP: ["BSP", "opentype"],
         Chin: ["Chin", "opentype"],
         Hexa: ["Hexa", "opentype"],
-        Kilo: ["kilo", "opentype"],
+
+        LineR: ["LineR", "opentype"],
+        LineT: ["LineT", "opentype"],
+        LineB: ["LineB", "opentype"],
+        Makinas: ["Makinas", "opentype"],
+        Kirieiji: ["Kirieiji", "opentype"],
+        UIJP: ["UIJP", "opentype"],
       },
       colors: {
         // #FFEF77   Yelow *Corn
