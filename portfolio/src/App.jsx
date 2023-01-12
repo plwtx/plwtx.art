@@ -6,27 +6,30 @@ import woikuto from "./img/woikuto.png";
 // 1 - 0x706C777478
 // 2 - Font And Color scheme
 // 3 - Ip Grabber IPアドレス
-// 4 - Time displayer 時間表示
+// 4 - Time displayer 冥王星
 // 5 - Japanese
 // 6 - Pie Menu 美術 | 16 進数からテキストへ (HEX) | このサイトは私の存在の証です!
+// 7 - Japanese Pluto Kanji name: 冥王星
 
 function App() {
   return (
     <div className="">
       <section className=" min-h-screen bg-len-Bluwska">
-        <h1 className="text-len-White p-20 font-Chin text-[2rem]">
-          0 x 7 0 6 C 7 7 7 4 7 8
-        </h1>
-        <div className="flex flex-col text-len-White font-Makinas absolute p-3 m-20 text-[2rem]">
+        <div className="p-20 font-LineB">
+          <h1 className="text-len-White absolute top-3  text-[27rem]">
+            冥王星
+          </h1>
+        </div>
+        <div className="flex flex-col text-len-White font-Makinas divide-y divide-len-Black absolute bottom-0 p-3 m-20 text-[2rem]">
           <a href="">00 - 0x706C777478</a>
           <a href="">01 - IPアドレス</a>
-          <a href="">02 - 時間表示</a>
+          <a href="">02 - 冥王星</a>
           <a href="">03 - Te美術st</a>
           <a href="">04 - このサイトは私の存在の証です</a>
         </div>
 
         <ul className="text-len-White p-20 text-[2.5rem] font-LineR"></ul>
-        <img className=" fixed bottom-0 right-0 w-[45%]" src={woikuto} />
+        <img className=" absolute bottom-0 right-0 w-[45%]" src={woikuto} />
       </section>
 
       <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">

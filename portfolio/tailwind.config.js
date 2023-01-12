@@ -37,7 +37,7 @@ module.exports = {
           Purple: "#645DDF",
           Green: "#ABFF4F",
           White: "#E9F1F7",
-          Black: "#131B23",
+          Black: "#000000",
         },
       },
     },
