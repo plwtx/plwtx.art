@@ -13,26 +13,22 @@ import woikuto from "./img/woikuto.png";
 function App() {
   return (
     <div className="">
-      <section className=" min-h-screen bg-len-Black">
-        <h1 className="text-len-White p-9 font-Kirieiji text-[5rem]">
-          0x706C777478
+      <section className=" min-h-screen bg-len-Bluwska">
+        <h1 className="text-len-White p-20 font-Chin text-[2rem]">
+          0 x 7 0 6 C 7 7 7 4 7 8
         </h1>
-        <img className=" fixed bottom-0 right-0 w-[50%]" src={woikuto} />
-        {/* <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1}
-          stroke="currentColor"
-          className="w-20 animate-bounce text-len-White"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-          />
-        </svg> */}
+        <div className="flex flex-col text-len-White font-Makinas absolute p-3 m-20 text-[2rem]">
+          <a href="">00 - 0x706C777478</a>
+          <a href="">01 - IPアドレス</a>
+          <a href="">02 - 時間表示</a>
+          <a href="">03 - Te美術st</a>
+          <a href="">04 - このサイトは私の存在の証です</a>
+        </div>
+
+        <ul className="text-len-White p-20 text-[2.5rem] font-LineR"></ul>
+        <img className=" fixed bottom-0 right-0 w-[45%]" src={woikuto} />
       </section>
+
       <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">
         <h4 className="text-len-White text-center py-36 font-Hexa text-sm">
           57 65 6C 63 6F 6D 65 20 74 6F 20 74 68 65 20 30 78 37 30 36 43 37 37
