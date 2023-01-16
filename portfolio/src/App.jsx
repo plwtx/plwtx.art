@@ -16,11 +16,9 @@ function App() {
     <div className="">
       <section className=" min-h-screen bg-len-Bluwska">
         <div className="p-20 font-LineB">
-          <h1 className="text-len-White absolute top-3  text-[27rem]">
-            冥王星
-          </h1>
+          <h1 className="text-len-White absolute top-3 text-[22vw]">冥王星</h1>
         </div>
-        <div className="flex flex-col text-len-White font-Makinas divide-y divide-len-Black absolute bottom-0 p-3 m-20 text-[2rem]">
+        <div className="flex flex-col text-len-White font-Makinas divide-y divide-len-White absolute bottom-0 p-3 m-20 text-[2rem]">
           <a href="">00 - 0x706C777478</a>
           <a href="">01 - IPアドレス</a>
           <a href="">02 - 冥王星</a>
@@ -29,7 +27,10 @@ function App() {
         </div>
 
         <ul className="text-len-White p-20 text-[2.5rem] font-LineR"></ul>
-        <img className=" absolute bottom-0 right-0 w-[45%]" src={woikuto} />
+        <img
+          className=" absolute bottom-0 right-0 min-w-[45%] max-w-[45%]"
+          src={woikuto}
+        />
       </section>
 
       <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">
