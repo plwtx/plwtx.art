@@ -25,14 +25,17 @@ function App() {
 
   useEffect(() => {
     getIp();
+    document.title = `こんにちは世界 | 0x706C777478`;
   }, []);
   return (
     <div className="">
       <section className="min-h-screen bg-len-Bluwska">
-        <div className="p-20 font-LineB">
-          <h1 className="text-len-White absolute top-3 text-[22vw]">冥王星</h1>
+        <div className="p-20 font-LineB flex justify-center items-center">
+          <h1 className="text-len-White absolute p-3 md:top-0 2xl:left-0 text-[22vw]">
+            冥王星
+          </h1>
         </div>
-        <div className="flex flex-col text-len-White font-LineR divide-y bg-len-Black border-4 border-len-Black divide-len-White absolute bottom-0 p-3 m-20 text-[2rem]">
+        <div className="flex flex-col justify-center md:absolute lg:absolute md:bottom-0 lg:bottom-0 p-3 m-20 text-[2rem] text-len-White font-LineR divide-y bg-len-Black border-4 border-len-Black divide-len-White ">
           <a
             className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black"
             href=""
@@ -54,17 +57,17 @@ function App() {
           </a>
         </div>
         <img
-          className=" absolute bottom-0 right-0 min-w-[45%] max-w-[45%]"
+          className=" absolute bottom-0 right-0 pointer-events-none sm:w-[250px] md:w-[710px] lg:w-[745px] xl:w-[45%]"
           src={woikuto}
         />
       </section>
 
       <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">
-        <h4 className="text-len-White text-center py-36 font-LineR text-xl">
+        <h4 className="text-len-White text-center py-36 font-LineR sm:text-sm md:text-xl">
           理由は何ですか {ip}? 説明してください.
         </h4>
       </section>
-      <section className="min-h-screen bg-len-Bluwska">
+      <section className="min-h-screen bg-len-Bluwska flex justify-center items-center">
         <Gallery />
       </section>
     </div>
