@@ -35,9 +35,9 @@ function App() {
             冥王星
           </h1>
         </div>
-        <div className="flex flex-col justify-center md:absolute lg:absolute md:bottom-0 lg:bottom-0 p-3 m-20 text-[2rem] text-len-White font-LineR divide-y bg-len-Black border-4 border-len-Black divide-len-White ">
+        <div className="flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] text-len-White font-LineR bg-len-Black border-4 border-len-Black divide-y divide-len-White">
           <a
-            className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black"
+            className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
             href=""
           >
             絵 / スケッチ
@@ -45,25 +45,25 @@ function App() {
 
           <a
             href=""
-            className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black"
+            className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
           >
             3Dモデル
           </a>
           <a
             href=""
-            className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black"
+            className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
           >
             レンの物語
           </a>
         </div>
         <img
-          className=" absolute bottom-0 right-0 pointer-events-none sm:w-[250px] md:w-[710px] lg:w-[745px] xl:w-[45%]"
+          className=" absolute bottom-0 right-0 pointer-events-none min-w-[560px] max-w-[600px] md:min-w-[620px] md:max-w-[700px] lg:min-w-[860px] lg:max-w-[875px]"
           src={woikuto}
         />
       </section>
 
       <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">
-        <h4 className="text-len-White text-center py-36 font-LineR sm:text-sm md:text-xl">
+        <h4 className="text-len-White text-center py-36 font-LineR text-sm md:text-xl">
           理由は何ですか {ip}? 説明してください.
         </h4>
       </section>
