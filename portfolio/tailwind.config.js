@@ -25,12 +25,14 @@ module.exports = {
         // #FF0066   Reink *Paradise Pink
         // #0033FF   Bluwska *Blue RYB
         // #CFEACE   Greey *Nyanza
+        // old bluwska: 0033FF
 
         len: {
           Yelow: "#FFEF77",
           Reink: "#FF0066",
-          Bluwska: "#0033FF",
+          Pwurple: "#6c48e2",
           Greey: "#CFEACE",
+          Bluwska: "#0033FF",
 
           //Len New colors
 
