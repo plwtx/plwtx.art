@@ -1,6 +1,6 @@
 import "./App.css";
-import woikuto from "./img/woikuto.png";
 import woikuto2 from "./img/woikuto2.png";
+import mobileMiku from "./img/mobileMiku.png";
 
 import { useState, useEffect } from "react";
 import Gallery from "./components/gallery.jsx";
@@ -64,6 +64,10 @@ function App() {
               className="absolute bottom-0 right-0 pointer-events-none collapse px-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]"
               src={woikuto2}
             />
+            <img
+              className="absolute bottom-0 pointer-events-none sm:collapse px-6 min-w-[360px]"
+              src={mobileMiku}
+            />
           </div>
         </section>
 
@@ -75,7 +79,7 @@ function App() {
         <Gallery />
         <section className=" min-h-screen bg-len-Black flex-col flex justify-center items-center">
           <h4 className="text-len-White text-center py-36 font-LineR text-sm md:text-xl">
-            さようなら.
+            彼女は 微笑んで、別れを告げた。
           </h4>
         </section>
       </section>
