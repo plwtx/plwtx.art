@@ -13,8 +13,8 @@ import img10 from "../img/gallery/10.png";
 
 export default function Gallery() {
   return (
-    <section className="min-h-screen bg-len-Bluwska lg:grid lg:grid-cols-2 lg:gap-2 lg:place-content-center	 ">
-      <h1 className="select-none text-len-White tracking-widest py-9 md:py-0 text-center md:text-left md:tracking-tight whitespace-normal p-3 leading-none font-LineB px-9 text-[5rem] md:text-[3rem] lg:text-[27rem] ">
+    <div className="snap-start w-screen h-screen bg-len-Bluwska lg:grid lg:grid-cols-2 lg:gap-2 lg:place-content-center	 ">
+      <h1 className=" text-len-White tracking-widest py-9 md:py-0 text-center md:text-left md:tracking-tight whitespace-normal p-3 leading-none font-LineB px-9 text-[5rem] md:text-[3rem] lg:text-[24rem] ">
         美術館
       </h1>
       <div className="flex justify-center items-center p-3">
@@ -30,6 +30,6 @@ export default function Gallery() {
           <img className="rounded-lg" src={img10} alt="" />
         </div>
       </div>
-    </section>
+    </div>
   );
 }
