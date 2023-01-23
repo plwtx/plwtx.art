@@ -27,7 +27,7 @@ function App() {
     document.title = `こんにちは世界 | 0x706C777478`;
   }, []);
   return (
-    <section className="snap-y snap-mandatory h-screen overflow-scroll overflow-x-hidden">
+    <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
       <div className="">
         <div className="">
           <Main />
@@ -36,6 +36,7 @@ function App() {
               理由は何ですか {ip}? 説明してください.
             </h4>
           </div>
+
           <Gallery />
           <div className="snap-start w-screen h-screen bg-len-Black flex-col flex justify-center items-center">
             <h4 className="text-len-White text-center py-36 font-LineR text-sm md:text-xl">
