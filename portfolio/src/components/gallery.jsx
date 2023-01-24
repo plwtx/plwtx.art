@@ -14,13 +14,13 @@ import agjp from "../img/agjp.svg";
 
 export default function Gallery() {
   return (
-    <div className="snap-start w-screen h-screen bg-len-Bluwska p-3">
-      {/* <h1 className=" text-len-White lg:collapse tracking-widest py-9 md:py-0 text-center whitespace-normal p-3 leading-none font-LineB px-9 text-[5rem]  ">
+    <div className="snap-start min-h-screen bg-len-Bluwska p-3">
+      <h1 className=" text-len-White lg:collapse tracking-widest py-9 md:py-0 text-center whitespace-normal p-3 leading-none font-LineB px-9 text-[5rem]  ">
         美術館
-      </h1> */}
+      </h1>
       <div className="lg:grid lg:m-10 lg:grid-cols-2 lg:gap-2 lg:place-content-center">
         <div className="collapse lg:visible relative">
-          <img className="absolute w-[43vw] " src={agjp} alt="" />
+          <img className="absolute w-[40vw] " src={agjp} alt="" />
         </div>
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-3 gap-3 lg:grid-cols-3 lg:px-9 lg:m-6 rounded-lg">
