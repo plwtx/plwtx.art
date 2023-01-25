@@ -38,10 +38,24 @@ function App() {
           </div>
 
           <Gallery />
-          <div className="snap-start w-screen h-screen bg-len-Black flex-col flex justify-center items-center">
-            <h4 className="text-len-White text-center py-36 font-LineR text-sm md:text-xl">
-              彼女は 微笑んで、別れを告げた。
-            </h4>
+          <div
+            id="About"
+            className="snap-start w-screen h-screen bg-len-Black flex-col flex justify-center items-center"
+          >
+            <div className="bg-len-Bluwska p-4 border-8 border-double border-current ">
+              <div className="">
+                <div class="loader3">
+                  <span></span>
+                </div>
+
+                <div class="loader2">
+                  <span></span>
+                </div>
+                <div class="loader1">
+                  <span></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

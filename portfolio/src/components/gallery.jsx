@@ -22,7 +22,7 @@ export default function Gallery() {
         <div className="collapse lg:visible relative">
           <img className="absolute w-[40vw] " src={agjp} alt="" />
         </div>
-        <div className="flex justify-center items-center">
+        <div id="Gallery" className="flex justify-center items-center">
           <div className="grid grid-cols-3 gap-3 lg:grid-cols-3 lg:px-9 lg:m-6 rounded-lg">
             <img className="rounded-lg" src={img1} alt="" />
             <img className="rounded-lg" src={img2} alt="" />

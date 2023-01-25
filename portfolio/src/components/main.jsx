@@ -14,20 +14,20 @@ export default function Main() {
       </div>
       <div className=" z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] text-len-White font-LineR bg-len-Black border-4 border-len-Black divide-y divide-len-White ">
         <a
+          href="#Gallery"
           className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
-          href=""
         >
           絵 / スケッチ
         </a>
 
         <a
-          href=""
+          href="#3D-Gallery"
           className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
         >
           3Dモデル
         </a>
         <a
-          href=""
+          href="#About"
           className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
         >
           レンの物語
