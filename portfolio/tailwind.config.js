@@ -32,13 +32,13 @@ module.exports = {
           Reink: "#FF0066",
           Pwurple: "#6c48e2",
           Greey: "#CFEACE",
-          Bluwska: "#0033FF",
+          Bluwska: "#fffff",
 
           //Len New colors
 
           Purple: "#645DDF",
           Green: "#ABFF4F",
-          White: "#E9F1F7",
+          White: "#ffffff",
           Black: "#000000",
         },
       },

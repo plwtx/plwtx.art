@@ -10,20 +10,21 @@ import img7 from "../img/gallery/7.png";
 import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
 import img10 from "../img/gallery/10.png";
-import agjp from "../img/agjp.svg";
+import AGJP from "../img/AGJP.svg";
+import AGJPB from "../img/AGJPB.svg";
 
 export default function Gallery() {
   return (
-    <div className="snap-start min-h-screen bg-len-Bluwska p-3">
+    <div className="snap-start min-h-screen bg-len-Black p-3">
       <h1 className=" text-len-White lg:collapse tracking-widest py-9 md:py-0 text-center whitespace-normal p-3 leading-none font-LineB px-9 text-[5rem]  ">
         美術館
       </h1>
       <div className="lg:grid lg:m-10 lg:grid-cols-2 lg:gap-2 lg:place-content-center">
         <div className="collapse lg:visible relative">
-          <img className="absolute w-[40vw] " src={agjp} alt="" />
+          <img className="absolute w-[40vw] " src={AGJP} alt="" />
         </div>
         <div id="Gallery" className="flex justify-center items-center">
-          <div className="grid grid-cols-3 gap-3 lg:grid-cols-3 lg:px-9 lg:m-6 rounded-lg">
+          <div className="grid grid-cols-3 px-3 gap-3 lg:gap-3 lg:grid-cols-3 lg:px-12">
             <img className="rounded-lg" src={img1} alt="" />
             <img className="rounded-lg" src={img2} alt="" />
             <img className="rounded-lg" src={img3} alt="" />

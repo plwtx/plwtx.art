@@ -280,12 +280,12 @@ function App() {
       <div className="">
         <div className="">
           <Main />
-          <div className="snap-start w-screen h-screen bg-len-Black flex-col flex justify-center items-center">
-            <h4 className="text-len-White text-center py-36 font-LineR text-sm md:text-xl">
+          <Gallery />
+          <div className="snap-start w-screen h-screen bg-len-White flex-col flex justify-center items-center">
+            <h4 className="text-len-Black text-center py-36 font-LineR text-sm md:text-xl">
               理由は何ですか {ip}? 説明してください.
             </h4>
           </div>
-          <Gallery />
           <div className="snap-start w-screen h-screen bg-len-Black px-9 flex flex-col justify-start items-start">
             <h4 className="text-len-White text-left my-auto font-LineR text-sm md:text-xl">
               "ip": {ip}; <br />
