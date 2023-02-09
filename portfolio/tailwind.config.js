@@ -32,7 +32,8 @@ module.exports = {
           Reink: "#FF0066",
           Pwurple: "#6c48e2",
           Greey: "#CFEACE",
-          Bluwska: "#fffff",
+          BrownlishGreen: "#bfb9a6",
+          Bluwska: "#0033FF",
 
           //Len New colors
 

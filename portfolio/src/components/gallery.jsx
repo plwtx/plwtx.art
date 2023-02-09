@@ -25,15 +25,15 @@ export default function Gallery() {
         </div>
         <div id="Gallery" className="flex justify-center items-center">
           <div className="grid grid-cols-3 px-3 gap-3 lg:gap-3 lg:grid-cols-3 lg:px-12">
-            <img className="rounded-lg" src={img1} alt="" />
-            <img className="rounded-lg" src={img2} alt="" />
-            <img className="rounded-lg" src={img3} alt="" />
-            <img className="rounded-lg" src={img5} alt="" />
-            <img className="rounded-lg" src={img6} alt="" />
-            <img className="rounded-lg" src={img7} alt="" />
-            <img className="rounded-lg" src={img8} alt="" />
-            <img className="rounded-lg" src={img9} alt="" />
-            <img className="rounded-lg" src={img10} alt="" />
+            <img className="" src={img1} alt="" />
+            <img className="" src={img2} alt="" />
+            <img className="" src={img3} alt="" />
+            <img className="" src={img5} alt="" />
+            <img className="" src={img6} alt="" />
+            <img className="" src={img7} alt="" />
+            <img className="" src={img8} alt="" />
+            <img className="" src={img9} alt="" />
+            <img className="" src={img10} alt="" />
           </div>
         </div>
       </div>

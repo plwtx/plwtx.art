@@ -11,27 +11,27 @@ export default function Main() {
         beta | v1.9 | color_rework
       </h1>
       <div className="p-20 font-LineB flex justify-center items-center">
-        <h1 className="select-none text-len-Black absolute p-3 md:top-0 2xl:left-0 text-[22vw]">
+        <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[22vw]">
           冥王星
         </h1>
       </div>
       <div className=" z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] text-len-White font-LineR bg-len-Black border-4 border-len-Black divide-y divide-len-White ">
         <a
           href="#Gallery"
-          className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
+          className="hover:bg-len-White hover:first-letter:text-len-Black hover:text-len-Black p-3"
         >
           絵 / スケッチ
         </a>
 
         <a
           href="#3D-Gallery"
-          className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
+          className="hover:bg-len-White hover:first-letter:text-len-Black hover:text-len-Black p-3"
         >
           3Dモデル
         </a>
         <a
           href="#About"
-          className="hover:bg-len-White hover:first-letter:text-len-Bluwska hover:text-len-Black p-3"
+          className="hover:bg-len-White hover:first-letter:text-len-Black hover:text-len-Black p-3"
         >
           レンの物語
         </a>
