@@ -4,9 +4,9 @@ import mobileMiku from "../img/mobileMiku.png";
 
 //
 
-export default function Main() {
+export default function Home() {
   return (
-    <div className="snap-start relative min-h-screen bg-len-Bluwska">
+    <div className="snap-start relative min-h-screen bg-len-Black">
       <h1 className="collapse lg:visible text-len-Black absolute p-1 top-0 right-0 text-[0.75vw]">
         beta | v1.9 | color_rework
       </h1>
@@ -15,23 +15,24 @@ export default function Main() {
           冥王星
         </h1>
       </div>
-      <div className=" z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] text-len-White font-LineR bg-len-Black border-4 border-len-Black divide-y divide-len-White ">
+      {/* Home Menu */}
+      <div className=" z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] bg-len-White text-len-Black font-LineR  border-4 border-len-White divide-y divide-len-Black ">
         <a
           href="#Gallery"
-          className="hover:bg-len-White hover:first-letter:text-len-Black hover:text-len-Black p-3"
+          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
         >
           絵 / スケッチ
         </a>
 
         <a
           href="#3D-Gallery"
-          className="hover:bg-len-White hover:first-letter:text-len-Black hover:text-len-Black p-3"
+          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
         >
           3Dモデル
         </a>
         <a
           href="#About"
-          className="hover:bg-len-White hover:first-letter:text-len-Black hover:text-len-Black p-3"
+          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
         >
           レンの物語
         </a>

@@ -2,7 +2,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Gallery from "./components/gallery.jsx";
 import End from "./components/end.jsx";
-import Main from "./components/main.jsx";
+import Home from "./components/home.jsx";
 
 // To do list
 
@@ -12,7 +12,7 @@ function App() {
   }, []);
   return (
     <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
-      <Main />
+      <Home />
       <Gallery />
       <End />
     </section>

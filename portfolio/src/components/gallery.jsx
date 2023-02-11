@@ -9,7 +9,6 @@ import img6 from "../img/gallery/6.png";
 import img7 from "../img/gallery/7.png";
 import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
-import img10 from "../img/gallery/10.png";
 import AGJP from "../img/AGJP.svg";
 import AGJPB from "../img/AGJPB.svg";
 
@@ -28,12 +27,12 @@ export default function Gallery() {
             <img className="" src={img1} alt="" />
             <img className="" src={img2} alt="" />
             <img className="" src={img3} alt="" />
+            <img className="" src={img4} alt="" />
             <img className="" src={img5} alt="" />
             <img className="" src={img6} alt="" />
             <img className="" src={img7} alt="" />
             <img className="" src={img8} alt="" />
             <img className="" src={img9} alt="" />
-            <img className="" src={img10} alt="" />
           </div>
         </div>
       </div>
