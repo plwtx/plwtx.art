@@ -7,8 +7,8 @@ import mobileMiku from "../img/mobileMiku.png";
 export default function Home() {
   return (
     <div className="snap-start relative min-h-screen bg-len-Black">
-      <h1 className="collapse lg:visible text-len-Black absolute p-1 top-0 right-0 text-[0.75vw]">
-        beta | v1.9 | color_rework
+      <h1 className="collapse lg:visible text-len-White absolute p-1 top-0 right-0 text-[0.75vw]">
+        beta | v1.11
       </h1>
       <div className="p-20 font-LineB flex justify-center items-center">
         <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[22vw]">

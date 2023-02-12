@@ -5,19 +5,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Jiro: ["jiro", "opentype"],
-        Kilo: ["kilo", "opentype"],
-        Digi: ["Digi", "opentype"],
-        Cry: ["Cry", "opentype"],
-        BSP: ["BSP", "opentype"],
-        Chin: ["Chin", "opentype"],
-        Hexa: ["Hexa", "opentype"],
-
         LineR: ["LineR", "opentype"],
         LineT: ["LineT", "opentype"],
         LineB: ["LineB", "opentype"],
         Makinas: ["Makinas", "opentype"],
-        Kirieiji: ["Kirieiji", "opentype"],
         UIJP: ["UIJP", "opentype"],
       },
       colors: {

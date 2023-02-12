@@ -219,48 +219,6 @@
 }
 
 @font-face {
-  font-family: Kilo;
-  src: url("font/Kilo.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Jiro;
-  src: url("font/Jiro.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Hexa;
-  src: url("font/HexaDEC.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Chin;
-  src: url("font/chintzy.ttf") format("opentype");
-}
-
-@font-face {
-  font-family: Digi;
-  src: url("font/DigiSYS.ttf") format("opentype");
-}
-
-@font-face {
-  font-family: BSP;
-  src: url("font/BSP.ttf") format("opentype");
-}
-
-@font-face {
-  font-family: Cry;
-  src: url("font/crystal.ttf") format("opentype");
-}
-
-/* Japanese Fonts */
-
-@font-face {
-  font-family: Kirieiji;
-  src: url("font/kirieji04.ttf") format("opentype");
-}
-
-@font-face {
   font-family: UIJP;
   src: url("font/uijp.otf") format("opentype");
 }
