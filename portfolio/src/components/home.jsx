@@ -1,31 +1,12 @@
 import "../App.css";
 import woikuto2 from "../img/woikuto2.png";
 import mobileMiku from "../img/mobileMiku.png";
-// import firstHomeImage from "../img/mobileMiku.png";
-// import secondHomeImage from "../img/mobileMiku.png";
-// import thirdHomeImage from "../img/mobileMiku.png";
-// let a = Math.floor(Math.random() * 9) + 1;
-// const projects = [
-//   {
-//     photo: { firstHomeImage },
-//     text: "first project",
-//   },
-//   {
-//     photo: { secondHomeImage },
-//     text: "second project",
-//   },
-//   {
-//     photo: { thirdHomeImage },
-//     text: "third project",
-//   },
-// ];
 
 export default function Home() {
-  // console.log("The random number is:" + a);
   return (
     <div className="snap-start relative min-h-screen bg-len-Black">
       <h1 className="collapse lg:visible text-len-White absolute p-1 top-0 right-0 text-[0.75vw]">
-        beta | v1.11
+        beta | v1.15
       </h1>
       <div className="p-20 font-LineB flex justify-center items-center">
         <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[22vw]">

@@ -1,9 +1,8 @@
 import "./App.css";
 import { useEffect } from "react";
 import Gallery from "./components/gallery.jsx";
-import End from "./components/end.jsx";
-import Profile from "./components/profile.jsx";
 import Home from "./components/home.jsx";
+import HomeImages from "./components/homeImages.jsx";
 import Randomizer from "./components/randomizer.jsx";
 
 // To do list
@@ -16,7 +15,7 @@ function App() {
     <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
       <Home />
       <Gallery />
-      <Randomizer />
+      <HomeImages />
     </section>
   );
 }
