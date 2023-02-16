@@ -8,6 +8,7 @@ export default function Home() {
       <h1 className="collapse lg:visible text-len-White absolute p-1 top-0 right-0 text-[0.75vw]">
         beta | v1.15
       </h1>
+      {/* Main Text */}
       <div className="p-20 font-LineB flex justify-center items-center">
         <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[22vw]">
           冥王星
@@ -35,6 +36,7 @@ export default function Home() {
           レンの物語
         </a>
       </div>
+      {/* Homepage Image */}
       <div className="">
         <img
           className="absolute bottom-0 right-0 pointer-events-none collapse px-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]"

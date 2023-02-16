@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import Gallery from "./components/gallery.jsx";
 import Home from "./components/home.jsx";
 import HomeImages from "./components/homeImages.jsx";
-import Randomizer from "./components/randomizer.jsx";
 
 // To do list
 
