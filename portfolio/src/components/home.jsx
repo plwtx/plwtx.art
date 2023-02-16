@@ -1,12 +1,60 @@
 import "../App.css";
-import woikuto2 from "../img/woikuto2.png";
-import mobileMiku from "../img/mobileMiku.png";
+import firstStickerWeb from "../img/stickers/sticker1.png";
+import secondStickerWeb from "../img/stickers/sticker2.png";
+import thirdStickerWeb from "../img/stickers/sticker3.png";
+let a = Math.floor(Math.random() * 99999999) + 1;
+const data = [
+  {
+    id: 1,
+    path: "../img/stickers/sticker1.png",
+    name: "Woikuto",
+    image: firstStickerWeb,
+  },
+  {
+    id: 2,
+    path: "../img/stickers/sticker2.png",
+    name: "Hatsune Miku",
+    image: secondStickerWeb,
+  },
+  {
+    id: 3,
+    path: "../img/stickers/sticker3.png",
+    name: "Pnuleka",
+    image: thirdStickerWeb,
+  },
+];
 
 export default function Home() {
+  let imageData = undefined;
+  // data.forEach((x) => {
+  //   if (x.id === a) {
+  //     imageData = x;
+  //   }
+  // });
+  console.log("The random number is:" + a);
+  let localImageIndexString = localStorage.getItem("imageIndex");
+  let localImageIndex = parseInt(localImageIndexString);
+  if (localImageIndex) {
+    let insertedIndex = localImageIndex + 1;
+    if (localImageIndex >= 3) {
+      insertedIndex = 1;
+    }
+    localStorage.setItem("imageIndex", insertedIndex);
+  } else {
+    localStorage.setItem("imageIndex", 1);
+    localImageIndex = 1;
+  }
+  console.log("Local image index is:" + localImageIndex);
+  data.forEach((x) => {
+    if (x.id === localImageIndex) {
+      imageData = x;
+    }
+  });
+
   return (
     <div className="snap-start relative min-h-screen bg-len-Black">
       <h1 className="collapse lg:visible text-len-White absolute p-1 top-0 right-0 text-[0.75vw]">
-        beta | v1.15
+        {a}
       </h1>
       {/* Main Text */}
       <div className="p-20 font-LineB flex justify-center items-center">
@@ -36,16 +84,19 @@ export default function Home() {
           レンの物語
         </a>
       </div>
-      {/* Homepage Image */}
+      {/* Desktop Home Image */}
       <div className="">
         <img
           className="absolute bottom-0 right-0 pointer-events-none collapse px-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]"
-          src={woikuto2}
+          src={imageData.image}
+          alt="Desktop Image"
         />
+        {/* Mobile Home Image */}
         <div className="flex justify-center items-center">
           <img
             className="absolute bottom-0 pointer-events-none sm:collapse px-6 min-w-[320px] max-w-[350px]"
-            src={mobileMiku}
+            src={imageData.image}
+            alt="Mobile Image"
           />
         </div>
       </div>
