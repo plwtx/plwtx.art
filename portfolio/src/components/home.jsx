@@ -2,7 +2,7 @@ import "../App.css";
 import firstStickerWeb from "../img/stickers/sticker1.png";
 import secondStickerWeb from "../img/stickers/sticker2.png";
 import thirdStickerWeb from "../img/stickers/sticker3.png";
-let a = Math.floor(Math.random() * 99999999) + 1;
+import Randomizer from "./randomizer.jsx";
 const data = [
   {
     id: 1,
@@ -31,7 +31,6 @@ export default function Home() {
   //     imageData = x;
   //   }
   // });
-  console.log("The random number is:" + a);
   let localImageIndexString = localStorage.getItem("imageIndex");
   let localImageIndex = parseInt(localImageIndexString);
   if (localImageIndex) {
@@ -44,18 +43,15 @@ export default function Home() {
     localStorage.setItem("imageIndex", 1);
     localImageIndex = 1;
   }
-  console.log("Local image index is:" + localImageIndex);
   data.forEach((x) => {
     if (x.id === localImageIndex) {
-      imageData = x;
+      imageData = x.image;
     }
   });
 
   return (
     <div className="snap-start relative min-h-screen bg-len-Black">
-      <h1 className="collapse lg:visible text-len-White absolute p-1 top-0 right-0 text-[0.75vw]">
-        {a}
-      </h1>
+      <Randomizer />
       {/* Main Text */}
       <div className="p-20 font-LineB flex justify-center items-center">
         <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[22vw]">
@@ -88,15 +84,15 @@ export default function Home() {
       <div className="">
         <img
           className="absolute bottom-0 right-0 pointer-events-none collapse px-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]"
-          src={imageData.image}
-          alt="Desktop Image"
+          src={imageData}
+          alt="Desktop"
         />
         {/* Mobile Home Image */}
         <div className="flex justify-center items-center">
           <img
             className="absolute bottom-0 pointer-events-none sm:collapse px-6 min-w-[320px] max-w-[350px]"
-            src={imageData.image}
-            alt="Mobile Image"
+            src={imageData}
+            alt="Mobile"
           />
         </div>
       </div>

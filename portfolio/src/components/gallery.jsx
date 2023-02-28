@@ -1,5 +1,4 @@
 import "../App.css";
-import s1img from "../img/s1.png";
 import img1 from "../img/gallery/1.png";
 import img2 from "../img/gallery/2.png";
 import img3 from "../img/gallery/3.png";
@@ -10,7 +9,6 @@ import img7 from "../img/gallery/7.png";
 import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
 import AGJP from "../img/AGJP.svg";
-import AGJPB from "../img/AGJPB.svg";
 
 export default function Gallery() {
   return (
