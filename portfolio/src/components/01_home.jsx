@@ -2,7 +2,7 @@ import "../App.css";
 import firstStickerWeb from "../img/stickers/sticker1.png";
 import secondStickerWeb from "../img/stickers/sticker2.png";
 import thirdStickerWeb from "../img/stickers/sticker3.png";
-import Randomizer from "./randomizer.jsx";
+import Randomizer from "./00_randomizer.jsx";
 const data = [
   {
     id: 1,
