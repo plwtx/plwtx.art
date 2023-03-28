@@ -7,7 +7,7 @@ export default function About() {
       <div className="grid h-screen place-items-center">
         <div className="min-h-[23rem] min-w-[45rem] flex bg-len-White">
           <img className="max-h-[23rem]" src={pReal} alt="1st Drawing" />
-          <div className="m-6">
+          <div className="m-6 flex flex-col justify-between content-between">
             <h1 className="text-len-Black text-[1.75rem] font-LineR">
               user_00.01.0002.0000003.9
             </h1>
@@ -22,6 +22,7 @@ export default function About() {
               73 74 20 65 6E 6F 75 67 68 20 77 68 61 74 20 77 61 73 20 68 61 70
               70 65 6E 69 6E 67 2E 20 30 78 20 50 6C 65 61 73 65 2E
             </p>
+            <p>made in 0x</p>
           </div>
         </div>
       </div>
