@@ -1,8 +1,9 @@
 import "./App.css";
 import { useEffect } from "react";
 import Home from "./components/01_home.jsx";
-import About from "./components/03_about.jsx";
 import Gallery from "./components/02_gallery.jsx";
+import About from "./components/03_about.jsx";
+import Albums from "./components/04_albums.jsx";
 
 // To do list
 
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <Gallery />
       <About />
+      <Albums />
     </section>
   );
 }
