@@ -8,8 +8,13 @@ module.exports = {
         LineR: ["LineR", "opentype"],
         LineT: ["LineT", "opentype"],
         LineB: ["LineB", "opentype"],
-        Makinas: ["Makinas", "opentype"],
-        UIJP: ["UIJP", "opentype"],
+        NJPBlack: ["NJP-Black", "opentype"],
+        NJPBold: ["NJP-Bold", "opentype"],
+        NJPExtraLight: ["NJP-ExtraLight", "opentype"],
+        NJPLight: ["NJP-Light", "opentype"],
+        NJPMedium: ["NJP-Medium", "opentype"],
+        NJPRegular: ["NJP-Regular", "opentype"],
+        NJPSemiBold: ["NJP-SemiBold", "opentype"],
       },
       colors: {
         // #FFEF77   Yelow *Corn

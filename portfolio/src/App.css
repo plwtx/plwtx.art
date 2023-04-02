@@ -1,244 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer components {
   .btn-primary {
     @apply z-10 py-3 px-4 bg-gradient-to-br from-teal-300 to-blue-300 text-white font-semibold rounded-full shadow-md hover:bg-blue-400 hover:border-r-4 hover:border-t-4 hover:border-l-4 hover:border-b-4 transition-all border-blue-100 focus:outline-none focus:ring-2 focus:ring-white;
   }
-  .loader1 {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background: transparent;
-    border-radius: 50%;
-    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.55);
-    border: 1px solid #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+
+  @font-face {
+    font-family: LineR;
+    src: url("font/LINESeedJP_OTF_Rg.otf") format("opentype");
   }
 
-  .loader1::before {
-    content: "";
-    position: absolute;
-    inset: 20px;
-    background: transparent;
-    border: 1px dashed#444;
-    border-radius: 50%;
-    box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
-      inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+  @font-face {
+    font-family: LineT;
+    src: url("font/LINESeedJP_OTF_Th.otf") format("opentype");
   }
 
-  .loader1::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px dashed#444;
-    box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
-      inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+  @font-face {
+    font-family: LineB;
+    src: url("font/LINESeedJP_OTF_Eb.otf") format("opentype");
   }
 
-  .loader1 span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    height: 100%;
-    background: transparent;
-    transform-origin: top left;
-    animation: radar69 3s linear infinite;
-    border-top: 1px dashed #fff;
+  @font-face {
+    font-family: NJP-Black;
+    src: url("font/NotoSerifJP-Black.otf") format("opentype");
   }
-
-  .loader1 span::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #0033ff;
-    transform-origin: top left;
-    transform: rotate(-55deg);
-    filter: blur(30px) drop-shadow(20px 20px 20px #0033ff);
+  @font-face {
+    font-family: NJP-Bold;
+    src: url("font/NotoSerifJP-Bold.otf") format("opentype");
   }
-
-  /* Second Loader */
-  .loader2 {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    background: transparent;
-    border-radius: 50%;
-    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.55);
-    border: 1px solid #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  @font-face {
+    font-family: NJP-ExtraLight;
+    src: url("font/NotoSerifJP-ExtraLight.otf") format("opentype");
   }
-
-  .loader2::before {
-    content: "";
-    position: absolute;
-    inset: 20px;
-    background: transparent;
-    border: 1px dashed#444;
-    border-radius: 50%;
-    box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
-      inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+  @font-face {
+    font-family: NJP-Light;
+    src: url("font/NotoSerifJP-Light.otf") format("opentype");
   }
-
-  .loader2::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px dashed#444;
-    box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
-      inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+  @font-face {
+    font-family: NJP-Medium;
+    src: url("font/NotoSerifJP-Medium.otf") format("opentype");
   }
-
-  .loader2 span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    height: 100%;
-    background: transparent;
-    transform-origin: top left;
-    animation: radar31 0.69s linear infinite;
-    border-top: 1px dashed #fff;
+  @font-face {
+    font-family: NJP-Regular;
+    src: url("font/NotoSerifJP-Regular.otf") format("opentype");
   }
-
-  .loader2 span::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #0033ff;
-    transform-origin: top left;
-    transform: rotate(-55deg);
-    filter: blur(30px) drop-shadow(20px 20px 20px #0033ff);
+  @font-face {
+    font-family: NJP-SemiBold;
+    src: url("font/NotoSerifJP-SemiBold.otf") format("opentype");
   }
-  /* Third Loader */
-  .loader3 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border-radius: 50%;
-    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.55);
-    border: 1px solid #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
-
-  .loader3::before {
-    content: "";
-    position: absolute;
-    inset: 20px;
-    background: transparent;
-    border: 1px dashed#444;
-    border-radius: 50%;
-    box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
-      inset 5px 5px 35px rgba(0, 0, 0, 0.25);
-  }
-
-  .loader3::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px dashed#444;
-    box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
-      inset 5px 5px 35px rgba(0, 0, 0, 0.25);
-  }
-
-  .loader3 span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    height: 100%;
-    background: transparent;
-    transform-origin: top left;
-    animation: radar100 0.31s linear infinite;
-    border-top: 1px dashed #fff;
-  }
-
-  .loader3 span::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #0033ff;
-    transform-origin: top left;
-    transform: rotate(-55deg);
-    filter: blur(30px) drop-shadow(20px 20px 20px #0033ff);
-  }
-  @keyframes radar31 {
-    0% {
-      transform: rotate(0deg);
-    }
-
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes radar69 {
-    0% {
-      transform: rotate(0deg);
-    }
-
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-  @keyframes radar100 {
-    0% {
-      transform: rotate(0deg);
-    }
-
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-}
-
-@font-face {
-  font-family: UIJP;
-  src: url("font/uijp.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Makinas;
-  src: url("font/Makinas-4-Flat.otf") format("opentype");
-}
-
-@font-face {
-  font-family: LineR;
-  src: url("font/LINESeedJP_OTF_Rg.otf") format("opentype");
-}
-
-@font-face {
-  font-family: LineT;
-  src: url("font/LINESeedJP_OTF_Th.otf") format("opentype");
-}
-
-@font-face {
-  font-family: LineB;
-  src: url("font/LINESeedJP_OTF_Eb.otf") format("opentype");
 }

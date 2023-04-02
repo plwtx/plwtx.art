@@ -54,8 +54,8 @@ export default function Home() {
       <Randomizer />
       {/* Main Text */}
       <div className="p-20 font-LineB flex justify-center items-center">
-        <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[22vw]">
-          冥王星
+        <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[15vw]">
+          =^･-･^=
         </h1>
       </div>
       {/* Home Menu */}

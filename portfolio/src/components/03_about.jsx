@@ -22,12 +22,19 @@ export default function About() {
           </div>
           {/* About Len */}
           <div className="flex flex-col justify-between flex-shrink-1 p-3">
-            <h1 className="text-len-Black font-LineT text-3xl">紺野木綿季</h1>
-            <p className="text-len-Black font-LineR text-sm">
+            <div className="flex flex-row">
+              <h1 className="text-len-Black font-NJPRegular text-3xl">
+                レン・ヘラ
+              </h1>
+              <p className="text-sm font-NJPExtraLight ">/ Len Hera</p>
+            </div>
+            <p className="text-len-Black font-NJPExtraLight text-sm">
               You should call me Len (althogh it is not my official name). A
               scholar who specializes in the academic study of computer science.
-              I'm interested in web/software development. I'm currently trying
-              my best to continue my education abroad.
+              I like music, flags, tanks and cute things. I do not like to talk
+              about myself and anything else. I'm interested in
+              web/software/game development. I'm currently trying my best to
+              continue my education abroad.
             </p>
             {/* <div>
               <h3 className="text-len-Black text-xl">Experience:</h3>
@@ -45,7 +52,16 @@ export default function About() {
               <li>Japanese</li>
               <p>i like Languages =^･-･^=</p>
             </div> */}
-            <p className="text-md font-LineT ">=^･-･^= | 0.0.0.000.000.000</p>
+            <div className="flex flex-col">
+              <div className="flex flex-row text-sm">
+                <p className="pr-2 font-NJPRegular ">Mail Adress:</p>
+                <p className="font-NJPExtraLight ">len@plwtx.art</p>
+              </div>
+              <div className="flex flex-row text-sm">
+                <p className="pr-2 font-NJPRegular ">Ip Adress:</p>
+                <p className="font-NJPExtraLight ">112.328.219.2 ?</p>
+              </div>
+            </div>
           </div>
           {/* QR Code Inside the info card */}
           <div>
