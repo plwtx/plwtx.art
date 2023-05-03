@@ -30,12 +30,7 @@ export default function Randomizer() {
   });
   return (
     <div>
-      <a
-        className="collapse lg:visible text-len-White absolute p-1 top-0 right-0 text-[0.75vw] cursor-default	"
-        href={lnk}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href={lnk} target="_blank" rel="noopener noreferrer">
         {randomNumber}
       </a>
     </div>

@@ -51,43 +51,23 @@ export default function Home() {
 
   return (
     <div className="snap-start relative min-h-screen bg-len-Black">
-      <Randomizer />
+      <div className="collapse lg:visible text-len-White absolute top-0 left-1/2 transform -translate-x-1/2 p-1 font-IMFellEnglishSC text-base cursor-default">
+        <Randomizer />
+      </div>
       {/* Main Text */}
-      <div className="p-20 font-LineB flex justify-center items-center">
-        <h1 className="select-none text-len-White absolute p-3 md:top-0 2xl:left-0 text-[15vw]">
-          =^･-･^=
-        </h1>
-      </div>
-      {/* Home Menu */}
-      <div className=" z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] bg-len-White text-len-Black font-LineR  border-4 border-len-White divide-y divide-len-Black ">
-        <a
-          href="#Gallery"
-          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
-        >
-          絵 / スケッチ
-        </a>
 
-        <a
-          href="#3D-Gallery"
-          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
-        >
-          3Dモデル
-        </a>
-        <a
-          href="#About"
-          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
-        >
-          レンの物語
-        </a>
+      <div className="flex flex-col h-screen justify-center items-center text-len-White font-IMFellEnglishSC text-left p-3">
+        <h1 className="text-5xl">Pluwia Ad Astra</h1>
+        <h1 className="text-base">0.706c777478 | Len Hera | plwtx</h1>
       </div>
+
       {/* Desktop Home Image */}
-      <div className="">
+      {/* <div className="">
         <img
           className="absolute bottom-0 right-0 pointer-events-none collapse px-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]"
           src={imageData}
           alt="Desktop"
         />
-        {/* Mobile Home Image */}
         <div className="flex justify-center items-center">
           <img
             className="absolute bottom-0 pointer-events-none sm:collapse px-6 min-w-[320px] max-w-[350px]"
@@ -95,7 +75,7 @@ export default function Home() {
             alt="Mobile"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
