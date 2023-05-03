@@ -49,4 +49,8 @@
     font-family: NJP-SemiBold;
     src: url("font/NotoSerifJP-SemiBold.otf") format("opentype");
   }
+  @font-face {
+    font-family: IMFellEnglishSC;
+    src: url("font/IMFellEnglishSC-Regular.ttf") format("opentype");
+  }
 }

@@ -15,6 +15,7 @@ module.exports = {
         NJPMedium: ["NJP-Medium", "opentype"],
         NJPRegular: ["NJP-Regular", "opentype"],
         NJPSemiBold: ["NJP-SemiBold", "opentype"],
+        IMFellEnglishSC: ["IMFellEnglishSC", "opentype"],
       },
       colors: {
         // #FFEF77   Yelow *Corn

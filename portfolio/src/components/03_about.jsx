@@ -26,9 +26,9 @@ export default function About() {
               <h1 className="text-len-Black font-NJPRegular text-3xl">
                 レン・ヘラ
               </h1>
-              <p className="text-sm font-NJPExtraLight ">/ Len Hera</p>
+              <p className="text-sm font-IMFellEnglishSC ">/ Len Hera</p>
             </div>
-            <p className="text-len-Black font-NJPExtraLight text-sm">
+            <p className="text-len-Black font-IMFellEnglishSC text-md">
               You should call me Len (althogh it is not my official name). A
               scholar who specializes in the academic study of computer science.
               I like music, flags, tanks and cute things. I do not like to talk
@@ -53,13 +53,13 @@ export default function About() {
               <p>i like Languages =^･-･^=</p>
             </div> */}
             <div className="flex flex-col">
-              <div className="flex flex-row text-sm">
-                <p className="pr-2 font-NJPRegular ">Mail Adress:</p>
-                <p className="font-NJPExtraLight ">len@plwtx.art</p>
+              <div className="flex flex-row text-md">
+                <p className="pr-2 font-IMFellEnglishSC ">Mail Adress:</p>
+                <p className="font-IMFellEnglishSC ">len@plwtx.art</p>
               </div>
-              <div className="flex flex-row text-sm">
-                <p className="pr-2 font-NJPRegular ">Ip Adress:</p>
-                <p className="font-NJPExtraLight ">112.328.219.2 ?</p>
+              <div className="flex flex-row text-md">
+                <p className="pr-2 font-IMFellEnglishSC ">Ip Adress:</p>
+                <p className="font-IMFellEnglishSC ">112.328.219.2 ?</p>
               </div>
             </div>
           </div>
