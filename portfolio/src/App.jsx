@@ -2,7 +2,8 @@ import "./App.css";
 import { useEffect } from "react";
 import Home from "./components/01_home.jsx";
 import Gallery from "./components/02_gallery.jsx";
-import About from "./components/03_about.jsx";
+import EndLetter from "./components/05_endLetter.jsx";
+
 //import Albums from "./components/04_albums.jsx";
 // Version 2.11 | New Font
 // To do list
@@ -15,7 +16,7 @@ function App() {
     <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
       <Home />
       <Gallery />
-      <About />
+      <EndLetter />
       {/* <Albums /> */}
     </section>
   );

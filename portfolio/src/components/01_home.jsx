@@ -1,53 +1,53 @@
 import "../App.css";
-import firstStickerWeb from "../img/stickers/sticker1.png";
-import secondStickerWeb from "../img/stickers/sticker2.png";
-import thirdStickerWeb from "../img/stickers/sticker3.png";
+// import firstStickerWeb from "../img/stickers/sticker1.png";
+// import secondStickerWeb from "../img/stickers/sticker2.png";
+// import thirdStickerWeb from "../img/stickers/sticker3.png";
 import Randomizer from "./00_randomizer.jsx";
-const data = [
-  {
-    id: 1,
-    path: "../img/stickers/sticker1.png",
-    name: "Woikuto",
-    image: firstStickerWeb,
-  },
-  {
-    id: 2,
-    path: "../img/stickers/sticker2.png",
-    name: "Hatsune Miku",
-    image: secondStickerWeb,
-  },
-  {
-    id: 3,
-    path: "../img/stickers/sticker3.png",
-    name: "Pnuleka",
-    image: thirdStickerWeb,
-  },
-];
+// const data = [
+//   {
+//     id: 1,
+//     path: "../img/stickers/sticker1.png",
+//     name: "Woikuto",
+//     image: firstStickerWeb,
+//   },
+//   {
+//     id: 2,
+//     path: "../img/stickers/sticker2.png",
+//     name: "Hatsune Miku",
+//     image: secondStickerWeb,
+//   },
+//   {
+//     id: 3,
+//     path: "../img/stickers/sticker3.png",
+//     name: "Pnuleka",
+//     image: thirdStickerWeb,
+//   },
+// ];
 
 export default function Home() {
-  let imageData = undefined;
+  // let imageData = undefined;
+  // // data.forEach((x) => {
+  // //   if (x.id === a) {
+  // //     imageData = x;
+  // //   }
+  // // });
+  // let localImageIndexString = localStorage.getItem("imageIndex");
+  // let localImageIndex = parseInt(localImageIndexString);
+  // if (localImageIndex) {
+  //   let insertedIndex = localImageIndex + 1;
+  //   if (localImageIndex >= 3) {
+  //     insertedIndex = 1;
+  //   }
+  //   localStorage.setItem("imageIndex", insertedIndex);
+  // } else {
+  //   localStorage.setItem("imageIndex", 1);
+  //   localImageIndex = 1;
+  // }
   // data.forEach((x) => {
-  //   if (x.id === a) {
-  //     imageData = x;
+  //   if (x.id === localImageIndex) {
+  //     imageData = x.image;
   //   }
   // });
-  let localImageIndexString = localStorage.getItem("imageIndex");
-  let localImageIndex = parseInt(localImageIndexString);
-  if (localImageIndex) {
-    let insertedIndex = localImageIndex + 1;
-    if (localImageIndex >= 3) {
-      insertedIndex = 1;
-    }
-    localStorage.setItem("imageIndex", insertedIndex);
-  } else {
-    localStorage.setItem("imageIndex", 1);
-    localImageIndex = 1;
-  }
-  data.forEach((x) => {
-    if (x.id === localImageIndex) {
-      imageData = x.image;
-    }
-  });
 
   return (
     <div className="snap-start relative min-h-screen bg-len-Black">

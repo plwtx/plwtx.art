@@ -8,7 +8,6 @@ import img6 from "../img/gallery/6.png";
 import img7 from "../img/gallery/7.png";
 import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
-import AGJP from "../img/AGJP.svg";
 
 export default function Gallery() {
   return (
@@ -18,7 +17,7 @@ export default function Gallery() {
         美術館
       </h1>
       <div className="lg:grid lg:m-10 lg:grid-cols-2 lg:gap-2 lg:place-content-center">
-        <div className="collapse lg:visible relative">
+        <div className="collapse lg:visible relative flex flex-col justify-between">
           <div className="flex flex-row py-12">
             <h1 className="text-8xl font-NJPBold text-len-White">美術館</h1>
             <h1 className="text-3xl font-NJPBold text-len-White px-6">
@@ -30,9 +29,6 @@ export default function Gallery() {
             <br />
             私の絵を使ってください！さようなら。
           </p>
-          <br />
-          <hr />
-          <br />
           <p className="text-2xl font-IMFellEnglishSC text-len-White">
             I like drawing (clarification: i like drawing only when the end
             result is liked by my friends and principally liked by Len). It
@@ -42,11 +38,9 @@ export default function Gallery() {
             considered a manga artist nor an artist in general. I'm merely using
             the tools at my disposal to visualize ideas. My drawings / paintings
             are neither for you nor for any particular audience.
-          </p>
-          <br />
-          <p className="text-2xl font-IMFellEnglishSC text-len-White">
-            * Although I consider my art is only for myself, but I hereby grant
-            you all rights to my drawings. Print them out, post them, do
+            <br />
+            <br />* Although I consider my art is only made for myself, I hereby
+            grant you all rights to my drawings. Print them out, post them, do
             whatever your heart desires [you can even use them as your little
             silly Twitter PFPs]. You don't have to credit me but that being
             said, please don't sell it or use it to hurt others. It's
