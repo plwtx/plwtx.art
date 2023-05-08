@@ -13,23 +13,22 @@ export default function Gallery() {
   return (
     <div className="snap-start min-h-screen bg-len-Black p-3">
       {/* Name */}
-      <h1 className=" text-len-White lg:collapse tracking-widest py-9 md:py-0 text-center whitespace-normal p-3 leading-none font-NJPBold px-9 text-[5rem]  ">
+      {/* This element is the reason of the top gap  */}
+      {/* <h1 className=" text-len-White lg:collapse tracking-widest py-9 md:py-0 text-center whitespace-normal p-3 leading-none font-NJPBold px-9 text-[5rem]  ">
         美術館
-      </h1>
+      </h1> */}
       <div className="lg:grid lg:m-10 lg:grid-cols-2 lg:gap-2 lg:place-content-center">
-        <div className="collapse lg:visible relative flex flex-col justify-between lg:pr-16 2xl:pr-40">
+        <div className="collapse lg:visible relative flex flex-col justify-start lg:pr-16 2xl:pr-40">
           <div className="flex flex-row py-12">
             <h1 className="text-6xl font-NJPBold text-len-White">美術館</h1>
-            <h1 className="text-2xl font-NJPBold text-len-White px-6">
-              / Gallery
-            </h1>
+            <h1 className="text-2xl font-NJPBold text-len-White">/ Gallery</h1>
           </div>
           <p className="text-xl font-NJPMedium text-len-White">
             私は絵を描くのが好きです。 現実逃避したい。
             <br />
             私の絵を使ってください！さようなら。
           </p>
-          <p className="lg:text-[0.8rem] 2xl:text-xl font-IMFellEnglishSC text-len-White">
+          <p className="lg:text-[0.8rem] 2xl:text-xl font-IMFellEnglishSC text-len-White py-6">
             I like drawing (clarification: i like drawing only when the end
             result is liked by my friends and principally liked by Len). It
             helps me to feel at ease with the world as it grants me the ability
@@ -50,7 +49,7 @@ export default function Gallery() {
         </div>
         {/* Gallery Tab */}
         <div id="Gallery" className="flex justify-center items-center">
-          <div className="grid grid-cols-3 px-3 gap-3 lg:gap-3 lg:grid-cols-3 lg:px-5">
+          <div className="grid grid-cols-3 px-3 gap-3 lg:gap-3 lg:grid-cols-3">
             <img className="" src={img1} alt="1st Drawing" />
             <img className="" src={img2} alt="2nd Drawing" />
             <img className="" src={img3} alt="3rd Drawing" />
