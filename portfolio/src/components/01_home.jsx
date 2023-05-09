@@ -57,7 +57,7 @@ export default function Home() {
       {/* Main Text */}
 
       <div className="flex flex-col h-screen justify-center items-center text-len-White font-IMFellEnglishSC text-left p-3">
-        <h1 className="text-5xl">Pluwia Ad Astra</h1>
+        <h1 className="text-5xl">Pluwia ad Astra</h1>
         {/* <h1 className="text-base">0.706c777478 | Len Hera | plwtx</h1> */}
         <h1 className="text-sm font-NJPLight">
           Len Hera | plwtx | 0.706c777478 | 冥王星 | | 2023
