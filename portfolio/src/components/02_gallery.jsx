@@ -8,6 +8,9 @@ import img6 from "../img/gallery/6.png";
 import img7 from "../img/gallery/7.png";
 import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
+import img10 from "../img/gallery/10.JPG";
+import img11 from "../img/gallery/11.JPG";
+import img12 from "../img/gallery/12.JPG";
 
 export default function Gallery() {
   return (
@@ -51,9 +54,9 @@ export default function Gallery() {
         <div id="Gallery" className="flex justify-center items-center">
           <div className="grid grid-cols-3 px-3 gap-3 lg:gap-3 lg:grid-cols-3">
             <img className=" hover:invert" src={img1} alt="1st Drawing" />
-            <img className="hover:invert" src={img2} alt="2nd Drawing" />
+            <img className="hover:invert" src={img11} alt="2nd Drawing" />
             <img className="hover:invert" src={img3} alt="3rd Drawing" />
-            <img className="hover:invert" src={img4} alt="4th Drawing" />
+            <img className="hover:invert" src={img12} alt="4th Drawing" />
             <img className="hover:invert" src={img5} alt="5th Drawing" />
             <img className="hover:invert" src={img6} alt="6th Drawing" />
             <img className="hover:invert" src={img7} alt="7th Drawing" />
