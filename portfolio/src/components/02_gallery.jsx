@@ -24,44 +24,41 @@ export default function Gallery() {
         <div className="collapse lg:visible relative flex flex-col justify-start lg:pr-16 2xl:pr-40">
           <div className="flex flex-row py-12">
             <h1 className="text-6xl font-NJPBold text-len-White">美術館</h1>
-            <h1 className="text-2xl font-NJPBold text-len-White">/ Gallery</h1>
+            <h1 className="text-sm px-3 text-len-White">/ 0x67616C6C657279</h1>
           </div>
           <p className="text-xl font-NJPMedium text-len-White">
             私は絵を描くのが好きです。 現実逃避したい。
             <br />
             私の絵を使ってください！さようなら。
           </p>
-          <p className="lg:text-[0.8rem] 2xl:text-xl font-IMFellEnglishSC text-len-White py-6">
-            I like drawing (clarification: i like drawing only when the end
-            result is liked by my friends and principally liked by Len). It
-            helps me to feel at ease with the world as it grants me the ability
-            to visualize the scenarios and characters i create in my head. I
-            usually draw in black and white manga style. I am neither to be
-            considered a manga artist nor an artist in general. I'm merely using
-            the tools at my disposal to visualize ideas. My drawings / paintings
-            are neither for you nor for any particular audience.
-            <br />
-            <br />* Although I consider my art is only made for myself, I hereby
-            grant you all rights to my drawings. Print them out, post them, do
-            whatever your heart desires [you can even use them as your little
-            silly Twitter PFPs]. You don't have to credit me but that being
-            said, please don't sell it or use it to hurt others. It's
-            fundamentally against my beliefs, therefore seeing it in the future
-            would make me sad.
-          </p>
+          <div className="bg-len-White my-1">
+            <a href="#Gallery" className="p-1">
+              絵 / スケッチ / 0x796F752063616E2066696E6420736B657463686573
+            </a>
+          </div>
+          <div className="bg-len-White  my-1">
+            <a href="#Gallery" className="p-1">
+              写真 / しゃしん / 0x70686F746F677261706873206172652074616B656E
+            </a>
+          </div>
+          <div className="bg-len-White  my-1">
+            <a href="#Gallery" className="p-1">
+              彫刻 / 3Dモデル / 0x6D6F64656C73206275696C64696E67732074616E6B73
+            </a>
+          </div>
         </div>
         {/* Gallery Tab */}
         <div id="Gallery" className="flex justify-center items-center">
           <div className="grid grid-cols-3 px-3 gap-3 lg:gap-3 lg:grid-cols-3">
-            <img className=" hover:invert" src={img1} alt="1st Drawing" />
-            <img className="hover:invert" src={img11} alt="2nd Drawing" />
-            <img className="hover:invert" src={img3} alt="3rd Drawing" />
-            <img className="hover:invert" src={img12} alt="4th Drawing" />
-            <img className="hover:invert" src={img5} alt="5th Drawing" />
-            <img className="hover:invert" src={img6} alt="6th Drawing" />
-            <img className="hover:invert" src={img7} alt="7th Drawing" />
-            <img className="hover:invert" src={img8} alt="8th Drawing" />
-            <img className="hover:invert" src={img9} alt="9th Drawing" />
+            <img className="hover:blur-sm" src={img1} alt="1st Drawing" />
+            <img className="hover:blur-sm" src={img11} alt="2nd Drawing" />
+            <img className="hover:blur-sm" src={img3} alt="3rd Drawing" />
+            <img className="hover:blur-sm" src={img12} alt="4th Drawing" />
+            <img className="hover:blur-sm" src={img5} alt="5th Drawing" />
+            <img className="hover:blur-sm" src={img6} alt="6th Drawing" />
+            <img className="hover:blur-sm" src={img7} alt="7th Drawing" />
+            <img className="hover:blur-sm" src={img8} alt="8th Drawing" />
+            <img className="hover:blur-sm" src={img9} alt="9th Drawing" />
           </div>
         </div>
       </div>

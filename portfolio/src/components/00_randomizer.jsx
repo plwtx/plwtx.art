@@ -7,12 +7,12 @@ let lnk = undefined;
 const data = [
   {
     id: 1,
-    link: "https://youtu.be/gpVJqECzTxk",
-    name: "Woikuto",
+    link: "https://marabarl-and-marlbara.tumblr.com/",
+    name: "marabarltomarlbara",
   },
   {
     id: 2,
-    link: "https://youtu.be/mgz1wdlkzcs",
+    link: "https://www.youtube.com/watch?v=GS6Rjpwb0Es",
     name: "Hatsune Miku",
   },
   {

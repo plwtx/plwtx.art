@@ -17,27 +17,7 @@ export default function About() {
             他の宗教と同様の基盤。
             現在、ソーシャルネットワーク上でハルヒズムの信奉者を見つけるのは簡単で、アクティブなグループは数十あります。
           </p>
-          <h2 className="lg:text-[0.8rem] 2xl:text-xl font-IMFellEnglishSC text-len-White">
-            A new anti-religion that grows more and more, the faithful believe
-            that Haruhi Suzumiya created everything three years ago, giving
-            false memories to living beings and false appearance of old age to
-            things, Haruhism is based exclusively on faith, so which has the
-            same foundations as any other religion. Currently it is easy to find
-            followers of Haruhism on social networks, there are dozens of active
-            groups. Haruhism has been the subject of some controversy. Many
-            followers of older religions consider Haruhism little more than a
-            New Age cult.
-            <br />
-            The "religion" of people who are fan of the popular anime series
-            'The Melancholy of Haruhi Suzumiya'. Haruhism is taken from the
-            first name of the main character of the anime, Haruhi Suzumiya.
-            Haruhist's usually participate in activites related to the anime,
-            such as doing the popular dance seen in the anime (Known as 'Hare
-            Hare Yukai'), as well as other activites such as forming their own
-            "SOS Brigades"
-            <br />
-          </h2>
-          <p className="text-xl font-NJPBlack text-len-White py-6">
+          <p className="text-sm text-len-White py-6">
             48 61 72 75 68 69 20 53 75 7A 75 6D 69 79 61 20 69 73 20 69 6E 20 64
             65 73 70 61 69 72 20 61 6E 64 20 73 74 75 63 6B 20 69 6E 20 61 20 73
             68 69 74 74 79 20 63 6F 75 6E 74 72 79 20 77 68 65 72 65 20 73 68 65
