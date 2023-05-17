@@ -46,6 +46,11 @@ export default function Gallery() {
               彫刻 / 3Dモデル / 0x6D6F64656C73206275696C64696E67732074616E6B73
             </a>
           </div>
+          <div className="bg-len-White  my-1">
+            <a href="#Gallery" className="p-1">
+              張り紙 / ステッカー / 0x737469636B6572
+            </a>
+          </div>
         </div>
         {/* Gallery Tab */}
         <div id="Gallery" className="flex justify-center items-center">

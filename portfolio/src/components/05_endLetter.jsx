@@ -5,7 +5,7 @@ export default function EndLetter() {
     <div className="snap-start relative min-h-screen bg-len-Black">
       <div className="absolute bottom-0 left-0">
         {/* Album Boxes */}
-        <div className=" lg:w-[38%] p-16">
+        <div id="Letter" className=" lg:w-[38%] p-16">
           <p className="text-xl font-NJPMedium text-len-White">
             誰もが思想、良心、宗教の自由を得る権利を持っています。
           </p>

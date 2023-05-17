@@ -54,15 +54,36 @@ export default function Home() {
       <div className="collapse lg:visible text-len-White absolute top-0 left-1/2 transform -translate-x-1/2 p-1 font-IMFellEnglishSC text-base cursor-default">
         <Randomizer />
       </div>
-      {/* Main Text */}
+      {/* Menu Select */}
 
+      <div className="z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] bg-len-White text-len-Black font-NJPMedium border-4 border-len-White divide-y divide-len-Black ">
+        <a
+          href="#Gallery"
+          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
+        >
+          絵 / スケッチ
+        </a>
+
+        <a
+          href="#Haruhism"
+          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
+        >
+          ハルヒズム
+        </a>
+        <a
+          href="#Letter"
+          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
+        >
+          最後の手紙
+        </a>
+      </div>
+      {/* Main Text */}
       <div className="flex flex-col h-screen justify-center items-center text-len-White text-left p-3">
         <h1 className="text-[9rem] font-NJPSemiBold">冥王星</h1>
         <h1 className="text-[0.95rem] font-NJPExtraLight">
           Len Hera | plwtx | 0.706c777478 | 冥王星 | 2023
         </h1>
       </div>
-
       {/* Desktop Home Image */}
       <div className="">
         <img

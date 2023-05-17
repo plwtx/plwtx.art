@@ -11,7 +11,10 @@ export default function About() {
             <h1 className="text-6xl font-NJPBold text-len-White">ハルヒズム</h1>
             <h1 className="text-2xl font-NJPBold text-len-White">/ Haruhism</h1>
           </div>
-          <p className="text-xl font-NJPMedium text-len-White py-6">
+          <p
+            id="Haruhism"
+            className="text-xl font-NJPMedium text-len-White py-6"
+          >
             ますます成長する新しい反宗教、信者は涼宮ハルヒが 3
             年前にすべてを作成し、生物に偽りの記憶を与え、物事に古い時代の偽りの外観を与えると信じています。ハルヒズムは信仰のみに基づいているため、同じ
             他の宗教と同様の基盤。
