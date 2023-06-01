@@ -8,6 +8,7 @@ import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
 import img11 from "../img/gallery/11.JPG";
 import img12 from "../img/gallery/12.JPG";
+import QRC from "../img/QRC.png";
 
 export default function Gallery() {
   return (
@@ -47,6 +48,9 @@ export default function Gallery() {
             <a href="#Gallery" className="p-1">
               張り紙 / ステッカー / 0x737469636B6572
             </a>
+          </div>
+          <div className="absolute bottom-0">
+            <img className="h-36" src={QRC} alt="1st Drawing" />
           </div>
         </div>
         {/* Gallery Tab */}
