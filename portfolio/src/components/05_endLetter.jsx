@@ -17,7 +17,6 @@ export default function EndLetter() {
             whatever your heart desires (Perhaps use them as your silly Twitter
             PFPs ! =^･-･^=). You don't have to credit me. I am currently trying
             my best to continue my education abroad. Please wish luck for me.
-            Goodbye !
           </p>
           <br />
           <p className="text-xl font-NJPBold text-len-White">

@@ -1,14 +1,11 @@
 import "../App.css";
 import img1 from "../img/gallery/1.png";
-import img2 from "../img/gallery/2.png";
 import img3 from "../img/gallery/3.png";
-import img4 from "../img/gallery/4.png";
 import img5 from "../img/gallery/5.png";
 import img6 from "../img/gallery/6.png";
 import img7 from "../img/gallery/7.png";
 import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
-import img10 from "../img/gallery/10.JPG";
 import img11 from "../img/gallery/11.JPG";
 import img12 from "../img/gallery/12.JPG";
 
@@ -55,15 +52,15 @@ export default function Gallery() {
         {/* Gallery Tab */}
         <div id="Gallery" className="flex justify-center items-center">
           <div className="grid grid-cols-3 px-3 gap-3 lg:gap-3 lg:grid-cols-3">
-            <img className="hover:blur-sm" src={img1} alt="1st Drawing" />
-            <img className="hover:blur-sm" src={img11} alt="2nd Drawing" />
-            <img className="hover:blur-sm" src={img3} alt="3rd Drawing" />
-            <img className="hover:blur-sm" src={img12} alt="4th Drawing" />
-            <img className="hover:blur-sm" src={img5} alt="5th Drawing" />
-            <img className="hover:blur-sm" src={img6} alt="6th Drawing" />
-            <img className="hover:blur-sm" src={img7} alt="7th Drawing" />
-            <img className="hover:blur-sm" src={img8} alt="8th Drawing" />
-            <img className="hover:blur-sm" src={img9} alt="9th Drawing" />
+            <img className="" src={img1} alt="1st Drawing" />
+            <img className="" src={img11} alt="2nd Drawing" />
+            <img className="" src={img3} alt="3rd Drawing" />
+            <img className="" src={img12} alt="4th Drawing" />
+            <img className="" src={img5} alt="5th Drawing" />
+            <img className="" src={img6} alt="6th Drawing" />
+            <img className="" src={img7} alt="7th Drawing" />
+            <img className="" src={img8} alt="8th Drawing" />
+            <img className="" src={img9} alt="9th Drawing" />
           </div>
         </div>
       </div>

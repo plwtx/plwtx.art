@@ -81,7 +81,7 @@ export default function Home() {
       <div className="flex flex-col h-screen justify-center items-center text-len-White text-left p-3">
         <h1 className="text-[9rem] font-NJPSemiBold">冥王星</h1>
         <h1 className="text-[0.95rem] font-NJPExtraLight">
-          Len Hera | plwtx | 0.706c777478 | 冥王星 | 2023
+          Welcome to the portal. The portal is where i exist.
         </h1>
       </div>
       {/* Desktop Home Image */}
