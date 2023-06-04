@@ -54,6 +54,16 @@ export default function Home() {
       <div className="collapse lg:visible text-len-White absolute top-0 left-1/2 transform -translate-x-1/2 p-1 font-IMFellEnglishSC text-base cursor-default">
         <Randomizer />
       </div>
+
+      {/* Main Text */}
+
+      <div className="flex flex-col xl:h-screen justify-center items-center text-len-White text-left p-3 py-9">
+        <h1 className="text-[5rem] xl:text-[9rem] font-NJPSemiBold">冥王星</h1>
+        <h1 className="text-[0.55rem] xl:text-[0.95rem] font-NJPExtraLight">
+          Welcome to the portal. The internet is where i exist.
+        </h1>
+      </div>
+
       {/* Menu Select */}
 
       <div className="z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] bg-len-White text-len-Black font-NJPMedium border-4 border-len-White divide-y divide-len-Black ">
@@ -76,13 +86,6 @@ export default function Home() {
         >
           最後の手紙
         </a>
-      </div>
-      {/* Main Text */}
-      <div className="flex flex-col h-screen justify-center items-center text-len-White text-left p-3">
-        <h1 className="text-[9rem] font-NJPSemiBold">冥王星</h1>
-        <h1 className="text-[0.95rem] font-NJPExtraLight">
-          Welcome to the portal. The internet is where i exist.
-        </h1>
       </div>
       {/* Desktop Home Image */}
       <div className="">
