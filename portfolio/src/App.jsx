@@ -2,8 +2,8 @@ import "./App.css";
 import { useEffect } from "react";
 import Home from "./components/01_home.jsx";
 import Gallery from "./components/02_gallery.jsx";
-import EndLetter from "./components/05_endLetter.jsx";
 import Map from "./components/03_map.jsx";
+import EndLetter from "./components/04_endLetter.jsx";
 
 //import Albums from "./components/04_albums.jsx";
 // Version 2.11 | New Font

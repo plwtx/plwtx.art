@@ -9,20 +9,16 @@ import img9 from "../img/gallery/9.png";
 import img11 from "../img/gallery/11.JPG";
 import img12 from "../img/gallery/12.JPG";
 import QRC from "../img/QRC.png";
+import del from "../img/logo512.png";
 
 export default function Gallery() {
   return (
-    <div className="snap-start min-h-screen relative bg-len-Black p-3">
-      {/* Name */}
-      {/* This element is the reason of the top gap  */}
-      {/* <h1 className=" text-len-White lg:collapse tracking-widest py-9 md:py-0 text-center whitespace-normal p-3 leading-none font-NJPBold px-9 text-[5rem]  ">
-        美術館
-      </h1> */}
+    <div className="snap-start min-h-screen relative bg-len-Black">
       <h1 className="visible relative md:absolute md:collapse text-6xl text-center p-10 font-NJPBold text-len-White">
         美術館
       </h1>
 
-      <div className="md:grid md:grid-cols-2 md:m-6 lg:gap-2">
+      <div className="md:grid md:grid-cols-2 lg:gap-2 p-9">
         <div className="relative flex flex-col justify-center md:justify-start pb-9 lg:pr-16 2xl:pr-40">
           <div className="flex md:flex-row py-12">
             <h1 className="absolute collapse md:relative md:visible text-6xl font-NJPBold text-len-White">
@@ -59,15 +55,30 @@ export default function Gallery() {
               </a>
             </div>
           </div>
-          {/* QR Code */}
-          <div className="collapse md:visible absolute md:bottom-0 flex justify-center">
-            <img
-              className="collapse md:visible md:p-0 md:h-36"
-              src={QRC}
-              alt="1st Drawing"
-            />
+        </div>
+        {/* Mobile attention */}
+        <div className="relative md:absolute md:collapse h-[5rem]">
+          <div className="bg-len-White">
+            <div className="flex justify-center">
+              <div className="flex justify-center items-center w-12">
+                <img
+                  className="w-6 pointer-events-none invert"
+                  src={del}
+                  alt="WHATDELETED"
+                />
+                <img
+                  className=" pointer-events-none invert mx-6"
+                  src={del}
+                  alt="WHATDELETED"
+                />
+                <img
+                  className="w-6 pointer-events-none invert"
+                  src={del}
+                  alt="WHATDELETED"
+                />
+              </div>
+            </div>
           </div>
-          <div className="relative md:absolute md:collapse mx-6 mt-16 h-[7rem] bg-len-White"></div>
         </div>
         {/* Gallery Tab */}
         <div
@@ -86,6 +97,14 @@ export default function Gallery() {
             <img className="" src={img9} alt="9th Drawing" />
           </div>
         </div>
+      </div>
+      {/* QR Code */}
+      <div className="collapse md:visible absolute md:bottom-0 flex justify-center">
+        <img
+          className="collapse md:visible md:m-9 md:h-36"
+          src={QRC}
+          alt="1st Drawing"
+        />
       </div>
     </div>
   );

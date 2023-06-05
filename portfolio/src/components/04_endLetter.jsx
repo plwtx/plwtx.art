@@ -5,11 +5,11 @@ export default function EndLetter() {
     <div className="snap-start relative min-h-screen bg-len-Black">
       <div className="absolute bottom-0 left-0">
         {/* Album Boxes */}
-        <div id="Letter" className="m-9 lg:m-0 lg:w-[38%] lg:p-9">
-          <p className="text-[0.55rem] lg:text-xl font-NJPMedium text-len-White">
+        <div id="Letter" className="m-9 md:m-0 md:w-[38%] md:p-9">
+          <p className="text-[0.55rem] md:text-xl font-NJPMedium text-len-White">
             誰もが思想、良心、宗教の自由を得る権利を持っています。
           </p>
-          <p className="text-[0.55rem] xl:text-xl font-IMFellEnglishSC text-justify text-len-White">
+          <p className="text-[0.55rem] md:text-[0.8rem] font-IMFellEnglishSC text-justify text-len-White">
             Hi, please call me Len (though that's not my official name). I am a
             scholar specializing in computer science. I like music, linguistics,
             flags, tanks and cute things. I also like drawing (sometimes). I
