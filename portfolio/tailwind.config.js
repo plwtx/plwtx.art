@@ -5,9 +5,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        LineR: ["LineR", "opentype"],
-        LineT: ["LineT", "opentype"],
-        LineB: ["LineB", "opentype"],
         NJPBlack: ["NJP-Black", "opentype"],
         NJPBold: ["NJP-Bold", "opentype"],
         NJPExtraLight: ["NJP-ExtraLight", "opentype"],

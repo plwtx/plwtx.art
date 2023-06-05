@@ -7,21 +7,6 @@
   }
 
   @font-face {
-    font-family: LineR;
-    src: url("font/LINESeedJP_OTF_Rg.otf") format("opentype");
-  }
-
-  @font-face {
-    font-family: LineT;
-    src: url("font/LINESeedJP_OTF_Th.otf") format("opentype");
-  }
-
-  @font-face {
-    font-family: LineB;
-    src: url("font/LINESeedJP_OTF_Eb.otf") format("opentype");
-  }
-
-  @font-face {
     font-family: NJP-Black;
     src: url("font/NotoSerifJP-Black.otf") format("opentype");
   }

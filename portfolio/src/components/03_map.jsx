@@ -1,6 +1,5 @@
 import "../App.css";
 import kxn from "../img/kxainikovska.png";
-import del from "../img/pFake.png";
 import logo from "../img/logo512.png";
 
 export default function Map() {
@@ -13,11 +12,13 @@ export default function Map() {
               <img className="w-20" src={logo} alt="WHATDELETED" />
             </div>
             <div className="px-3">
-              <h1 className="subpixel-antialiased font-IMFellEnglishSC tracking-wide text-xl text-len-Black font-black">
-                907823907329
+              <h1 className="subpixel-antialiased tracking-wide text-xl text-len-Black">
+                ERR_SSL_PROTOCOL_ERROR
               </h1>
-              <p className="subpixel-antialiased font-IMFellEnglishSC max-w-[400px] text-sm text-len-Black text-justify font-bold">
-                [903284]File currently not available please wait till [DELETED]
+              <p className="subpixel-antialiased max-w-[450px] text-[0.55rem] text-len-Black text-justify">
+                [ERROR0.230.302.1] INVALID PROTOCOL FOUND.09 UNSECURE NETWORK.10
+                CONNECTION ATTEMPT.11 FILE TRANSFER BLOCKED.12 CONNECTION TO IMG
+                BASE BLOCKED.13
               </p>
             </div>
           </div>

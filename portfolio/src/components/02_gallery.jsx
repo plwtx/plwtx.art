@@ -9,7 +9,7 @@ import img9 from "../img/gallery/9.png";
 import img11 from "../img/gallery/11.JPG";
 import img12 from "../img/gallery/12.JPG";
 import QRC from "../img/QRC.png";
-import del from "../img/logo512.png";
+import logo from "../img/logo512.png";
 
 export default function Gallery() {
   return (
@@ -36,22 +36,22 @@ export default function Gallery() {
             </p>
             <div className="bg-len-White my-1">
               <a href="#Gallery" className="p-1">
-                絵 / スケッチ / 0x796F752063616E2066696E6420736B657463686573
+                [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79
               </a>
             </div>
             <div className="bg-len-White  my-1">
               <a href="#Gallery" className="p-1">
-                写真 / しゃしん / 0x70686F746F677261706873206172652074616B656E
+                [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70
               </a>
             </div>
             <div className="bg-len-White  my-1">
               <a href="#Gallery" className="p-1">
-                彫刻 / 3Dモデル / 0x6D6F64656C73206275696C64696E67732074616E6B73
+                [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D
               </a>
             </div>
             <div className="bg-len-White  my-1">
               <a href="#Gallery" className="p-1">
-                張り紙 / ステッカー / 0x737469636B6572
+                [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73
               </a>
             </div>
           </div>
@@ -63,17 +63,17 @@ export default function Gallery() {
               <div className="flex justify-center items-center w-12">
                 <img
                   className="w-6 pointer-events-none invert"
-                  src={del}
+                  src={logo}
                   alt="WHATDELETED"
                 />
                 <img
                   className=" pointer-events-none invert mx-6"
-                  src={del}
+                  src={logo}
                   alt="WHATDELETED"
                 />
                 <img
                   className="w-6 pointer-events-none invert"
-                  src={del}
+                  src={logo}
                   alt="WHATDELETED"
                 />
               </div>
@@ -100,11 +100,18 @@ export default function Gallery() {
       </div>
       {/* QR Code */}
       <div className="collapse md:visible absolute md:bottom-0 flex justify-center">
-        <img
-          className="collapse md:visible md:m-9 md:h-36"
-          src={QRC}
-          alt="1st Drawing"
-        />
+        <a
+          href="https://www.instagram.com/0x706c777478/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="collapse md:visible md:m-9 md:h-36"
+            src={QRC}
+            href="https://www.instagram.com/0x706c777478/"
+            alt="1st Drawing"
+          />
+        </a>
       </div>
     </div>
   );
