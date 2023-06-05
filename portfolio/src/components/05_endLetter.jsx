@@ -20,7 +20,7 @@ export default function EndLetter() {
           </p>
           <br />
           <p className="text-[0.75rem] xl:text-sm lg:text-xl font-NJPBold text-len-White">
-            冥王星 / plwtx / Pluwia ad Astra / 2023.05.04
+            冥王星 / plwtx / Pluwia ad Astra / 2023.06.06
           </p>
         </div>
       </div>
