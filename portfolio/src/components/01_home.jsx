@@ -50,7 +50,7 @@ export default function Home() {
   });
 
   return (
-    <div className="snap-start relative min-h-screen bg-len-Black">
+    <div id="Home" className="snap-start relative min-h-screen bg-len-Black">
       <div className="collapse lg:visible text-len-White absolute top-0 left-1/2 transform -translate-x-1/2 p-1 font-IMFellEnglishSC text-base cursor-default">
         <Randomizer />
       </div>

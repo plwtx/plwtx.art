@@ -1,8 +1,19 @@
 import "../App.css";
-import kxn from "../img/kxainikovska.png";
+import COL from "../img/COL.PNG";
 import logo from "../img/logo512.png";
+import { useState, useEffect } from "react";
 
 export default function Map() {
+  const [ip, setIp] = useState();
+  const getIp = async () => {
+    const response = await fetch("https://ipapi.co/json/");
+    const data = await response.json();
+    setIp(data.ip);
+  };
+
+  useEffect(() => {
+    getIp();
+  }, []);
   return (
     <div id="Map" className="snap-start relative min-h-screen bg-len-Black">
       <div>
@@ -13,12 +24,11 @@ export default function Map() {
             </div>
             <div className="px-3">
               <h1 className="subpixel-antialiased tracking-wide text-xl text-len-Black">
-                ERR_SSL_PROTOCOL_ERROR
+                {ip}
               </h1>
               <p className="subpixel-antialiased max-w-[450px] text-[0.55rem] text-len-Black text-justify">
-                [ERROR0.230.302.1] INVALID PROTOCOL FOUND.09 UNSECURE NETWORK.10
-                CONNECTION ATTEMPT.11 FILE TRANSFER BLOCKED.12 CONNECTION TO IMG
-                BASE BLOCKED.13
+                {ip} ERR_SSL_PROTOCOL_ERROR INVALID PROTOCOL FOUND.09 UNSECURE
+                NETWORK.10
               </p>
             </div>
           </div>
@@ -26,37 +36,38 @@ export default function Map() {
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
         <img
-          className="min-h-[12rem] min-w-[12rem] lg:h-[25rem] p-9 animate-spin"
-          src={kxn}
+          className="min-h-[25rem] min-w-[25rem] lg:h-[40rem] p-9 animate-spin z-0"
+          src={COL}
           alt="Chainik"
         />
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
         <img
-          className="min-h-[12rem] min-w-[12rem] lg:h-[25rem] p-9 animate-pulse"
-          src={kxn}
+          className="min-h-[20rem] min-w-[20rem] lg:h-[30rem] p-9 z-10"
+          src={COL}
           alt="Chainik"
         />
       </div>
+
       <div className="absolute top-0 p-3 text-sm  md:visible md:p-9 md:bottom-auto md:right-0 font-IMFellEnglishSC">
         <p className="xl:text-xl text-len-White">Youkoso (￣▽￣*)ゞ</p>
         <div className="bg-len-White my-1">
-          <a href="" className="p-1">
+          <a href="#Home" className="p-1">
             009021489 | [DELETED] | network
           </a>
         </div>
         <div className="bg-len-White  my-1">
-          <a href="" className="p-1">
+          <a href="#Home" className="p-1">
             200002273 | [DELETED] | log
           </a>
         </div>
         <div className="bg-len-White  my-1">
-          <a href="" className="p-1">
+          <a href="#Home" className="p-1">
             000000289 | [DELETED] | friends
           </a>
         </div>
         <div className="bg-len-White  my-1">
-          <a href="" className="p-1">
+          <a href="#Home" className="p-1">
             000001099 | [DELETED] | project
           </a>
         </div>
