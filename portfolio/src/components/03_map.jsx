@@ -34,13 +34,7 @@ export default function Map() {
           </div>
         </div>
       </div>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
-        <img
-          className="min-h-[25rem] min-w-[25rem] lg:h-[40rem] p-9 animate-spin z-0"
-          src={COL}
-          alt="Chainik"
-        />
-      </div>
+
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
         <img
           className="min-h-[20rem] min-w-[20rem] lg:h-[30rem] p-9 z-10"
