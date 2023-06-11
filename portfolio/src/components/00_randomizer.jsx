@@ -1,6 +1,6 @@
 import "../App.css";
 let randomNumber = Math.floor(Math.random() * (999999 - 100000 + 1)) + 100000;
-let a = Math.floor(Math.random() * 7) + 1;
+let a = Math.floor(Math.random() * 10) + 1;
 let lnk = undefined;
 //Links:
 //
@@ -39,6 +39,21 @@ const data = [
     id: 7,
     link: "https://youtu.be/udCuNsweGc0",
     name: "10-THIS[IS]LNightlifek",
+  },
+  {
+    id: 8,
+    link: "https://youtu.be/iEFIfDTx9Y0",
+    name: "10-AMV_HARUHI_SUZUMIYA_ALAN_WUALKER_THE_SPECTRE_:3",
+  },
+  {
+    id: 9,
+    link: "https://youtu.be/2E_eZEp1a5U",
+    name: "always__AND__forever",
+  },
+  {
+    id: 10,
+    link: "https://marlbara.com/s/qskh/index.php",
+    name: "QTpie's Hunt",
   },
 ];
 export default function Randomizer() {
