@@ -31,7 +31,7 @@ const data = [
     image: fourthStickerWeb,
   },
   {
-    id: 4,
+    id: 5,
     path: "../img/stickers/sticker5.PNG",
     name: "XiaWei",
     image: fifthStickerWeb,
