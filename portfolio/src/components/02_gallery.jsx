@@ -86,15 +86,15 @@ export default function Gallery() {
           className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-screen md:w-auto md:relative md:flex md:justify-center md:items-center"
         >
           <div className="grid grid-cols-3 p-9 gap-3 lg:gap-3 lg:grid-cols-3">
-            <img className="" src={img1} alt="1st Drawing" />
-            <img className="" src={img11} alt="2nd Drawing" />
-            <img className="" src={img3} alt="3rd Drawing" />
-            <img className="" src={img12} alt="4th Drawing" />
-            <img className="" src={img5} alt="5th Drawing" />
-            <img className="" src={img6} alt="6th Drawing" />
-            <img className="" src={img7} alt="7th Drawing" />
-            <img className="" src={img8} alt="8th Drawing" />
-            <img className="" src={img9} alt="9th Drawing" />
+            <img className="" loading="lazy" src={img1} alt="1st Drawing" />
+            <img className="" loading="lazy" src={img11} alt="2nd Drawing" />
+            <img className="" loading="lazy" src={img3} alt="3rd Drawing" />
+            <img className="" loading="lazy" src={img12} alt="4th Drawing" />
+            <img className="" loading="lazy" src={img5} alt="5th Drawing" />
+            <img className="" loading="lazy" src={img6} alt="6th Drawing" />
+            <img className="" loading="lazy" src={img7} alt="7th Drawing" />
+            <img className="" loading="lazy" src={img8} alt="8th Drawing" />
+            <img className="" loading="lazy" src={img9} alt="9th Drawing" />
           </div>
         </div>
       </div>

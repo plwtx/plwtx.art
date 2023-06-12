@@ -2,6 +2,8 @@ import "../App.css";
 import firstStickerWeb from "../img/stickers/sticker1.png";
 import secondStickerWeb from "../img/stickers/sticker2.png";
 import thirdStickerWeb from "../img/stickers/sticker3.png";
+import fourthStickerWeb from "../img/stickers/sticker4.PNG";
+import fifthStickerWeb from "../img/stickers/sticker5.PNG";
 import Randomizer from "./00_randomizer.jsx";
 const data = [
   {
@@ -22,6 +24,18 @@ const data = [
     name: "Pnuleka",
     image: thirdStickerWeb,
   },
+  {
+    id: 4,
+    path: "../img/stickers/sticker4.PNG",
+    name: "Pluwia",
+    image: fourthStickerWeb,
+  },
+  {
+    id: 4,
+    path: "../img/stickers/sticker5.PNG",
+    name: "XiaWei",
+    image: fifthStickerWeb,
+  },
 ];
 
 export default function Home() {
@@ -35,7 +49,7 @@ export default function Home() {
   let localImageIndex = parseInt(localImageIndexString);
   if (localImageIndex) {
     let insertedIndex = localImageIndex + 1;
-    if (localImageIndex >= 3) {
+    if (localImageIndex >= 5) {
       insertedIndex = 1;
     }
     localStorage.setItem("imageIndex", insertedIndex);
