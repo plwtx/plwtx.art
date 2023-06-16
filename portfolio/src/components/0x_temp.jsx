@@ -9,7 +9,7 @@ export default function Temp() {
     /* Here it ends oh no */
   }
   return (
-    <div className="">
+    <div id="Temp" className="snap-start relative min-h-screen bg-len-Black">
       {/* Write your front code here OmO */}
 
       {/* Here it ends oh no */}

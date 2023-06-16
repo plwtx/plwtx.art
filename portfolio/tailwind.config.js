@@ -13,6 +13,7 @@ module.exports = {
         NJPRegular: ["NJP-Regular", "opentype"],
         NJPSemiBold: ["NJP-SemiBold", "opentype"],
         IMFellEnglishSC: ["IMFellEnglishSC", "opentype"],
+        MatissePro: ["MatissePro", "opentype"],
       },
       colors: {
         // #FFEF77   Yelow *Corn

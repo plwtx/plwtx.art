@@ -4,6 +4,7 @@ import Home from "./components/01_home.jsx";
 import Gallery from "./components/02_gallery.jsx";
 import Map from "./components/03_map.jsx";
 import EndLetter from "./components/04_endLetter.jsx";
+import Error404 from "./components/0p_error.jsx";
 //import Albums from "./components/04_albums.jsx";
 // Version 2.11 | New Font
 // To do list
@@ -18,6 +19,7 @@ function App() {
       <Gallery />
       <Map />
       <EndLetter />
+      {/* <Error404 /> */}
       {/* <Albums /> */}
     </section>
   );

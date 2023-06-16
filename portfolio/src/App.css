@@ -41,4 +41,8 @@
     font-family: IMFellEnglishSC;
     src: url("font/IMFellEnglishSC-Regular.ttf") format("opentype");
   }
+  @font-face {
+    font-family: MatissePro;
+    src: url("font/MatissePro.otf") format("opentype");
+  }
 }
