@@ -17,7 +17,6 @@ export default function Gallery() {
       <h1 className="visible relative md:absolute md:collapse text-6xl text-center p-10 font-NJPBold text-len-White">
         美術館
       </h1>
-
       <div className="md:grid md:grid-cols-2 lg:gap-2 p-9">
         <div className="relative flex flex-col justify-center md:justify-start pb-9 lg:pr-16 2xl:pr-40">
           <div className="flex md:flex-row py-12">

@@ -14,6 +14,7 @@ export default function Map() {
   useEffect(() => {
     getIp();
   }, []);
+
   return (
     <div id="Map" className="snap-start relative min-h-screen bg-len-Black">
       <div>
@@ -44,18 +45,18 @@ export default function Map() {
       </div>
 
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-3">
-        <div className="flex flex-col text-center">
+        <div className="flex flex-col text-cente font-NJPExtraLight text-center">
           <a href="#Home" className="px-6 bg-len-White m-1">
-            - friends -
+            - プロジェクト -
           </a>
           <a href="#Home" className="px-6 bg-len-White m-1">
-            - projects -
+            - ネット -
           </a>
           <a href="#Home" className="px-6 bg-len-White m-1">
-            - network -
+            - 連絡 -
           </a>
           <a href="#Home" className="px-6 bg-len-White m-1">
-            - contact -
+            - 友達 -
           </a>
         </div>
       </div>

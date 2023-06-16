@@ -1,6 +1,12 @@
 import "../App.css";
+// import Date from "../components/0c_date.jsx";
 
 export default function EndLetter() {
+  const current = new Date();
+  const date = `${current.getFullYear()}.${
+    current.getMonth() + 1
+  }.${current.getDate()}`;
+
   return (
     <div className="snap-start relative min-h-screen bg-len-Black">
       <div className="absolute bottom-0 left-0">
@@ -19,9 +25,15 @@ export default function EndLetter() {
             my best to continue my education abroad. Please wish luck for me.
           </p>
           <br />
-          <p className="text-[0.75rem] xl:text-sm lg:text-xl font-NJPBold text-len-White">
-            冥王星 / plwtx / Pluwia ad Astra / 2023.06.06
-          </p>
+          <div className="flex flex-row">
+            <p className="text-[0.75rem] xl:text-sm lg:text-xl font-NJPBold text-len-White">
+              冥王星 / plwtx / Pluwia ad Astra /
+            </p>
+            <p className="px-1 text-[0.75rem] xl:text-sm lg:text-xl font-NJPBold text-len-White">
+              {/* Empty */}
+              <h1>{date}</h1>
+            </p>
+          </div>
         </div>
       </div>
     </div>
