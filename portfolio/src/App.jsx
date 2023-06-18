@@ -20,6 +20,8 @@ function App() {
       <Map />
       <EndLetter />
       <Error404 />
+      <Gallery />
+
       {/* <Albums /> */}
     </section>
   );

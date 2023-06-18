@@ -4,19 +4,21 @@ import maru from "../img/eroruMaru.PNG";
 
 // Do not forget that function name must have capital beginning letter
 export default function Error404() {
-  {
-    /* Write your back code here OmO */
-  }
-
-  {
-    /* Here it ends oh no */
-  }
   return (
     <div id="Error" className="snap-start relative min-h-screen bg-len-Black">
       {/* Write your front code here OmO */}
-
       <div className="absolute top-1/2 left-0 pl-16 transform -translate-y-1/2">
-        <div className="p-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]">
+        <div className="p-3">
+          <img
+            className="z-0 animate-spin-slow"
+            loading="lazy"
+            src={maru}
+            alt="EroruChan"
+          />
+        </div>
+      </div>
+      <div className="absolute top-1/2 left-0 pl-16 transform -translate-y-1/2">
+        <div className="p-3">
           <img className="z-30" loading="lazy" src={eroru} alt="EroruChan" />
         </div>
       </div>

@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      animation: {
+        "spin-slow": "spin 12s linear infinite",
+      },
       fontFamily: {
         NJPBlack: ["NJP-Black", "opentype"],
         NJPBold: ["NJP-Bold", "opentype"],
