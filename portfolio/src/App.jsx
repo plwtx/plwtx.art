@@ -19,7 +19,7 @@ function App() {
       <Gallery />
       <Map />
       <EndLetter />
-      {/* <Error404 /> */}
+      <Error404 />
       {/* <Albums /> */}
     </section>
   );
