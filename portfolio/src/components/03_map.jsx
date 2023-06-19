@@ -46,16 +46,16 @@ export default function Map() {
 
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-3">
         <div className="flex flex-col text-cente font-NJPExtraLight text-center">
-          <a href="#Home" className="px-6 bg-len-White m-1">
+          <a href="/projects" className="px-6 bg-len-White m-1">
             - プロジェクト -
           </a>
-          <a href="#Home" className="px-6 bg-len-White m-1">
+          <a href="/network" className="px-6 bg-len-White m-1">
             - ネット -
           </a>
-          <a href="#Home" className="px-6 bg-len-White m-1">
+          <a href="/contact" className="px-6 bg-len-White m-1">
             - 連絡 -
           </a>
-          <a href="#Home" className="px-6 bg-len-White m-1">
+          <a href="/friends" className="px-6 bg-len-White m-1">
             - 友達 -
           </a>
         </div>
