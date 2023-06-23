@@ -1,27 +1,22 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
-import Home from "./components/01_home.jsx";
-import Gallery from "./components/02_gallery.jsx";
-import Map from "./components/03_map.jsx";
-import EndLetter from "./components/04_endLetter.jsx";
-import Error404 from "./components/0p_error.jsx";
-//import Albums from "./components/04_albums.jsx";
-// Version 2.11 | New Font
-// To do list
+import Main from "./pages/0p_main.jsx";
+import Error404 from "./pages/0p_error404.jsx";
 
 function App() {
   useEffect(() => {
     document.title = `plwtx | 0x706C777478`;
   }, []);
   return (
-    <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
-      <Home />
-      <Gallery />
-      <Map />
-      <EndLetter />
-      <Error404 />
-      {/* <Albums /> */}
-    </section>
+    <div className="">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="*" element={<Error404 />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

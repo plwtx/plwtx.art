@@ -34,22 +34,22 @@ export default function Gallery() {
               私の絵を使ってください！さようなら。
             </p>
             <div className="bg-len-White my-1">
-              <a href="#Gallery" className="p-1">
+              <a href="/sketches" className="p-1">
                 [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79
               </a>
             </div>
             <div className="bg-len-White  my-1">
-              <a href="#Gallery" className="p-1">
+              <a href="/pictures" className="p-1">
                 [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70
               </a>
             </div>
             <div className="bg-len-White  my-1">
-              <a href="#Gallery" className="p-1">
+              <a href="/3dmodels" className="p-1">
                 [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D
               </a>
             </div>
             <div className="bg-len-White  my-1">
-              <a href="#Gallery" className="p-1">
+              <a href="/stickers" className="p-1">
                 [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73
               </a>
             </div>
