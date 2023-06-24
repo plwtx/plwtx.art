@@ -33,22 +33,22 @@ export default function Gallery() {
               <br />
               私の絵を使ってください！さようなら。
             </p>
-            <div className="bg-len-White my-1">
-              <a href="/sketches" className="p-1">
+            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+              <a href="/sketches" className="p-1 ">
                 [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79
               </a>
             </div>
-            <div className="bg-len-White  my-1">
+            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
               <a href="/pictures" className="p-1">
                 [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70
               </a>
             </div>
-            <div className="bg-len-White  my-1">
+            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
               <a href="/3dmodels" className="p-1">
                 [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D
               </a>
             </div>
-            <div className="bg-len-White  my-1">
+            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
               <a href="/stickers" className="p-1">
                 [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73
               </a>
@@ -85,15 +85,60 @@ export default function Gallery() {
           className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-screen md:w-auto md:relative md:flex md:justify-center md:items-center"
         >
           <div className="grid grid-cols-3 p-9 gap-3 lg:gap-3 lg:grid-cols-3">
-            <img className="" loading="lazy" src={img1} alt="1st Drawing" />
-            <img className="" loading="lazy" src={img11} alt="2nd Drawing" />
-            <img className="" loading="lazy" src={img3} alt="3rd Drawing" />
-            <img className="" loading="lazy" src={img12} alt="4th Drawing" />
-            <img className="" loading="lazy" src={img5} alt="5th Drawing" />
-            <img className="" loading="lazy" src={img6} alt="6th Drawing" />
-            <img className="" loading="lazy" src={img7} alt="7th Drawing" />
-            <img className="" loading="lazy" src={img8} alt="8th Drawing" />
-            <img className="" loading="lazy" src={img9} alt="9th Drawing" />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img1}
+              alt="1st Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img11}
+              alt="2nd Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img3}
+              alt="3rd Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img12}
+              alt="4th Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img5}
+              alt="5th Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img6}
+              alt="6th Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img7}
+              alt="7th Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img8}
+              alt="8th Drawing"
+            />
+            <img
+              className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
+              loading="lazy"
+              src={img9}
+              alt="9th Drawing"
+            />
           </div>
         </div>
       </div>

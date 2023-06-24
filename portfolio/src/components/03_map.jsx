@@ -31,7 +31,7 @@ export default function Map() {
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <img
-          className="pointer-events-none min-h-[24rem] min-w-[24rem] lg:h-[37rem] p-9 z-10 animate-spin"
+          className="pointer-events-none min-h-[24rem] min-w-[24rem] lg:h-[37rem] p-9 z-10 animate-spin-slow"
           src={COL}
           alt="Chainik"
         />
@@ -45,17 +45,29 @@ export default function Map() {
       </div>
 
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-3">
-        <div className="flex flex-col text-cente font-NJPExtraLight text-center">
-          <a href="/projects" className="px-6 bg-len-White m-1">
+        <div className="flex flex-col text-cente font-NJPExtraLight text-center pb-6">
+          <a
+            href="/projects"
+            className="px-6 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White"
+          >
             - プロジェクト -
           </a>
-          <a href="/network" className="px-6 bg-len-White m-1">
+          <a
+            href="/network"
+            className="px-6 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White"
+          >
             - ネット -
           </a>
-          <a href="/contact" className="px-6 bg-len-White m-1">
+          <a
+            href="/contact"
+            className="px-6 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White"
+          >
             - 連絡 -
           </a>
-          <a href="/friends" className="px-6 bg-len-White m-1">
+          <a
+            href="/friends"
+            className="px-6 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White"
+          >
             - 友達 -
           </a>
         </div>

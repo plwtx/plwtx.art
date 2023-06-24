@@ -9,7 +9,7 @@ export default function Error404() {
     <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
       <div id="Error" className="snap-start relative min-h-screen bg-len-Black">
         {/* Write your front code here OmO */}
-        <div className="top-0 pt-32 sm:top-1/2 md:pt-16 xl:p-16 sm:left-0 sm:transform sm:-translate-y-1/2">
+        <div className="top-0 pt-32 sm:top-1/2 md:pt-16 xl:p-16 xl:pt-32 sm:left-0 sm:transform sm:-translate-y-1/2">
           <div className="absolute">
             <div className="">
               <img
