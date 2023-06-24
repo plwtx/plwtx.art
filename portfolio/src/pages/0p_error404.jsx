@@ -6,12 +6,12 @@ import logo from "../img/logo512.png";
 // Do not forget that function name must have capital beginning letter
 export default function Error404() {
   return (
-    <div>
+    <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
       <div id="Error" className="snap-start relative min-h-screen bg-len-Black">
         {/* Write your front code here OmO */}
-        <div className="">
-          <div className="absolute top-0 pt-[50%] p-3 sm:top-1/2 sm:pt-0 sm:left-0 sm:pl-16 sm:transform sm:-translate-y-1/2">
-            <div className="p-3">
+        <div className="top-0 pt-32 sm:top-1/2 md:pt-16 xl:p-16 sm:left-0 sm:transform sm:-translate-y-1/2">
+          <div className="absolute">
+            <div className="">
               <img
                 className="z-0 animate-spin-slow"
                 loading="lazy"
@@ -20,8 +20,8 @@ export default function Error404() {
               />
             </div>
           </div>
-          <div className="absolute top-0 pt-[50%] p-3 sm:top-1/2 sm:pt-0 sm:left-0 sm:pl-16 sm:transform sm:-translate-y-1/2">
-            <div className="p-3">
+          <div className="absolute">
+            <div className="">
               <img
                 className="z-30"
                 loading="lazy"
@@ -32,12 +32,12 @@ export default function Error404() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 p-3 sm:top-1/2 sm:right-0 sm:pr-36 sm:transform sm:-translate-y-1/2">
-          <div className="text-len-White text-left font-thin p-3">
-            <h1 className="text-[1.45rem] xl:text-[3rem] font-MatissePro">
+        <div className="absolute bottom-0 p-3 sm:top-1/2 sm:right-0 md:px-9 xl:px-16 sm:transform sm:-translate-y-1/2">
+          <div className="text-len-White text-left font-thin p-3 bg-black">
+            <h1 className="text-[1.25rem] md:text-[1.75rem] lg:text-[2.25rem] font-MatissePro">
               404 エラー 過ち サイト
             </h1>
-            <h1 className="text-[0.75rem] xl:text-[1.45rem] font-IMFellEnglishSC">
+            <h1 className="text-[0.8rem] md:text-[1.35rem] xl:text-[1.45rem] font-IMFellEnglishSC">
               Server: File or Directory couldn't be reached or not found
             </h1>
             <p className=" md:w-[40rem] text-[0.70rem] text-justify">
@@ -67,6 +67,6 @@ export default function Error404() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
