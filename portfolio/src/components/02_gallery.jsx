@@ -87,55 +87,46 @@ export default function Gallery() {
           <div className="grid grid-cols-3 p-9 gap-3 lg:gap-3 lg:grid-cols-3">
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img1}
               alt="1st Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img11}
               alt="2nd Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img3}
               alt="3rd Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img12}
               alt="4th Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img5}
               alt="5th Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img6}
               alt="6th Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img7}
               alt="7th Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img8}
               alt="8th Drawing"
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              loading="lazy"
               src={img9}
               alt="9th Drawing"
             />

@@ -31,14 +31,14 @@ export default function Map() {
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <img
-          className="pointer-events-none min-h-[24rem] min-w-[24rem] lg:h-[37rem] p-9 z-10 animate-spin-slow"
+          className="pointer-events-none min-h-[21rem] min-w-[21rem] lg:h-[33rem] p-9 z-10 animate-spin-slow"
           src={COL}
           alt="Chainik"
         />
       </div>
       <div className="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
         <img
-          className="min-h-[20rem] min-w-[20rem] lg:h-[30rem] p-9 z-10"
+          className="min-h-[18rem] min-w-[18rem] lg:h-[30rem] p-9 z-10"
           src={COL}
           alt="Chainik"
         />
