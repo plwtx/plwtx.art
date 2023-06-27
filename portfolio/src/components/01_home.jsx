@@ -80,25 +80,25 @@ export default function Home() {
 
       {/* Menu Select */}
 
-      <div className="z-40 flex flex-col justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 mx-20 sm:m-20 text-2xl sm:text-[2rem] bg-len-White text-len-Black font-NJPMedium border-4 border-len-White divide-y divide-len-Black ">
+      <div className="z-40 flex flex-col mx-20 justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 sm:m-20 text-2xl sm:text-[2rem] bg-len-White text-len-Black font-NJPMedium border-4 border-len-White divide-y divide-len-Black ">
         <a
           href="#Gallery"
-          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
+          className="py-3 text-left hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300"
         >
-          絵 / スケッチ
+          0.01 - 絵 / えがく
         </a>
 
         <a
           href="#Map"
-          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
+          className="py-3 text-left hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300"
         >
-          地図[DEL]
+          0.02 - 地図 / ナビ
         </a>
         <a
           href="#Letter"
-          className="hover:bg-len-Black hover:first-letter:text-len-White hover:text-len-White p-3"
+          className="py-3 text-left hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300"
         >
-          最後の手紙
+          0.03 - 最後の手紙
         </a>
       </div>
       {/* Desktop Home Image */}
