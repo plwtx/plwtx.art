@@ -85,20 +85,20 @@ export default function Home() {
           href="#Gallery"
           className="py-3 text-left hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300"
         >
-          0.01 - 絵 / えがく
+          - 絵 / えがく
         </a>
 
         <a
           href="#Map"
           className="py-3 text-left hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300"
         >
-          0.02 - 地図 / ナビ
+          - 地図 / ナビ
         </a>
         <a
           href="#Letter"
           className="py-3 text-left hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300"
         >
-          0.03 - 最後の手紙
+          - 最後の手紙
         </a>
       </div>
       {/* Desktop Home Image */}

@@ -1,6 +1,7 @@
 import "../App.css";
 import COL from "../img/COL.PNG";
 import logo from "../img/logo512.png";
+import stikr from "../img/stikr.PNG";
 import { useState, useEffect } from "react";
 
 export default function Map() {
@@ -31,8 +32,8 @@ export default function Map() {
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <img
-          className="pointer-events-none min-h-[21rem] min-w-[21rem] lg:h-[33rem] p-9 z-10 animate-spin-slow"
-          src={COL}
+          className="pointer-events-none min-h-[23rem] min-w-[23rem] lg:h-[35rem] p-9 -z-10 animate-spin-slow"
+          src={stikr}
           alt="Chainik"
         />
       </div>
