@@ -8,6 +8,9 @@ import img8 from "../img/gallery/8.png";
 import img9 from "../img/gallery/9.png";
 import img11 from "../img/gallery/11.JPG";
 import img12 from "../img/gallery/12.JPG";
+import img13 from "../img/gallery/13.JPG";
+import img14 from "../img/gallery/14.JPG";
+import img15 from "../img/gallery/15.jpg";
 import QRC from "../img/QRC.png";
 import logo from "../img/logo512.png";
 
@@ -92,7 +95,7 @@ export default function Gallery() {
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              src={img11}
+              src={img13}
               alt="2nd Drawing"
             />
             <img
@@ -127,7 +130,7 @@ export default function Gallery() {
             />
             <img
               className="border-2 border-dashed border-len-Black hover:scale-110 hover:invert duration-700"
-              src={img9}
+              src={img15}
               alt="9th Drawing"
             />
           </div>
