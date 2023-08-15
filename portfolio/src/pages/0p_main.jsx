@@ -13,7 +13,7 @@ function Main() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 6666);
+    }, 2666);
   }, []);
   return (
     <div>

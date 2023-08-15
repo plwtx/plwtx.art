@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import Main from "./pages/0p_main.jsx";
 import Error404 from "./pages/0p_error404.jsx";
+import HOP from "./pages/0p_HOP.jsx";
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/HOP" element={<HOP />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </BrowserRouter>
