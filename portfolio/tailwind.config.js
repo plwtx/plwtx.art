@@ -6,7 +6,10 @@ module.exports = {
     extend: {
       animation: {
         "spin-slow": "spin 12s linear infinite",
+        "trigger-fast": "pulse 0.0666s ease-in-out infinite",
+        "trigger-medium": "pulse 0.5s ease-in-out infinite",
       },
+
       fontFamily: {
         NJPBlack: ["NJP-Black", "opentype"],
         NJPBold: ["NJP-Bold", "opentype"],

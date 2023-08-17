@@ -1,7 +1,6 @@
-import "../App.css";
-import React, { useState, useEffect } from "react";
-import Mikuxor from "../img/observation/mikuxor.png";
-import logo from "../img/logo512.png";
+import "../../App.css";
+import Mikuxor from "../../img/observation/mikuxor.png";
+import logo from "../../img/logo512.png";
 
 // import Home from "../components/01_home.jsx"; mikuxor.png
 // import Gallery from "../components/02_gallery.jsx";
@@ -9,7 +8,7 @@ import logo from "../img/logo512.png";
 // import EndLetter from "../components/04_endLetter.jsx";
 // import Loading from "../components/05_loading.jsx";
 
-function HOP() {
+function CaseHatsuneMiku829() {
   return (
     <div className="">
       <div className="snap-start relative min-h-screen bg-len-Black">
@@ -98,7 +97,7 @@ function HOP() {
       <div className="snap-start relative min-h-screen bg-len-Black">
         {/* Here it ends oh no */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-6">
-          <a href="/">
+          <a href="/LAB">
             <img
               className="pointer-events-none w-10"
               src={logo}
@@ -110,4 +109,4 @@ function HOP() {
     </div>
   );
 }
-export default HOP;
+export default CaseHatsuneMiku829;

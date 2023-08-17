@@ -1,0 +1,14 @@
+Centering an absolute div / text:
+
+Both vertically and horizontally: 
+absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+
+Horizontally:
+absolute  left-1/2 transform -translate-x-1/2
+
+Vertically:
+absolute top-1/2 transform --translate-y-1/2
+
+
+Flex Centering: 
+flex items-center justify-center h-screen

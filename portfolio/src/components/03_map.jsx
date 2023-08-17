@@ -54,7 +54,7 @@ export default function Map() {
             - プロジェクト -
           </a>
           <a
-            href="/HOP"
+            href="/LAB"
             className="px-6 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White"
           >
             - 人類研究項目 -
