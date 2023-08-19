@@ -29,7 +29,7 @@ function Lab() {
               />
             </div>
 
-            <p className="text-[0.5rem] md:text-[0.95rem] md:w-[40%] font-NJPBlack my-3 text-justify text-len-Black bg-len-White">
+            <p className="text-[0.5rem] md:text-[0.95rem] md:w-[40%] font-NJPRegular my-3 p-6 text-justify text-len-Black bg-len-White">
               欢迎回家 \\\ به خانه خوش آمدی! obs.vr do research about different
               topics and will post them over here. Cases differ from each other.
               307 of them are written with a disturbed state of mind or
@@ -62,7 +62,7 @@ function Lab() {
       </div>
       <div className="snap-start relative min-h-screen bg-len-Black overflow-hidden">
         <img
-          className="absolute left-1/2 transform -translate-x-1/2 p-6 animate-trigger-fast md:p-0 md:w-[100%]"
+          className="absolute left-1/2 transform -translate-x-1/2 p-6 md:p-0 md:w-[100%]"
           src={Observer}
           alt="Observer is watching"
         />
