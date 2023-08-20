@@ -23,13 +23,13 @@ function Lab() {
           <div id="Letter" className="m-9 md:m-0 md:p-9">
             <div className="flex justify-center md:justify-start">
               <img
-                className="pointer-events-none"
+                className="pointer-events-none w-16 m-3"
                 src={Sinner}
                 alt="Sinner is hiding"
               />
             </div>
 
-            <p className="text-[0.5rem] md:text-[0.95rem] md:w-[40%] font-NJPRegular my-3 p-6 text-justify text-len-Black bg-len-White">
+            <p className="text-[0.5rem] skew-x-3 md:text-[0.95rem] md:w-[40%] font-NJPRegular my-9 p-6 md:p-9 text-justify text-len-Black bg-len-White">
               欢迎回家 \\\ به خانه خوش آمدی! obs.vr do research about different
               topics and will post them over here. Cases differ from each other.
               307 of them are written with a disturbed state of mind or
@@ -41,28 +41,29 @@ function Lab() {
               much informaمتحد زیر گننtionthat ce them an ry. !距离很重要
             </p>
             <br />
+            <hr className=" md:w-[41%] p-6" />
+            {/* Cases */}
+            <div className="">
+              <a
+                href="/CaseHatsuneMiku829"
+                className="px-6 p-3 bg-len-White m-3 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White"
+              >
+                #829
+              </a>
+              <a
+                href="/CaseHatsuneMiku829"
+                className="px-6 p-3 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White pointer-events-none animate-trigger-medium"
+              >
+                #301
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div className="absolute top-1/2 transform --translate-y-1/2">
-        <div className="flex flex-col justify-between px-9">
-          <a
-            href="/CaseHatsuneMiku829"
-            className="px-6 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White"
-          >
-            case_829
-          </a>
-          <a
-            href="/CaseHatsuneMiku829"
-            className="px-6 bg-len-White m-1 hover:-translate-y-1 hover:scale-110 hover:py-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White pointer-events-none animate-trigger-medium"
-          >
-            case_001
-          </a>
-        </div>
-      </div>
+
       <div className="snap-start relative min-h-screen bg-len-Black overflow-hidden">
         <img
-          className="absolute left-1/2 transform -translate-x-1/2 p-6 md:p-0 md:w-[100%]"
+          className="absolute left-1/2 transform -translate-x-1/2 p-6 md:p-0 md:w-[100%] opacity-25"
           src={Observer}
           alt="Observer is watching"
         />
@@ -71,7 +72,7 @@ function Lab() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-6">
           <a href="/">
             <img
-              className="pointer-events-none w-10"
+              className="pointer-events-none w-10 invert border-2"
               src={logo}
               alt="WHATDELETED"
             />

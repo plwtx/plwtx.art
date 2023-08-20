@@ -28,7 +28,7 @@ function CaseHatsuneMiku829() {
             <p className="text-[0.4rem] md:text-[0.75rem] font-NJPExtraLight text-len-White underline">
               (Case Study of Hyper Mikucerialxor on patient #293249-SAMSUNG)
             </p>
-            <p className="text-[0.5rem] md:text-[0.95rem] font-NJPExtraLight text-left text-len-White">
+            <p className="text-[0.5rem] skew-x-3 md:text-[0.85rem] font-NJPRegular my-9 p-6 md:p-9 text-justify text-len-Black bg-len-White">
               <br />
               An experiment with #293249-SAMSUNG revealed no HATSUNEMIKU in
               response to exposure and handling of snakes and spiders (including

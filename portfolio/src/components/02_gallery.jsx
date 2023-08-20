@@ -5,11 +5,8 @@ import img5 from "../img/gallery/5.png";
 import img6 from "../img/gallery/6.png";
 import img7 from "../img/gallery/7.png";
 import img8 from "../img/gallery/8.png";
-import img9 from "../img/gallery/9.png";
-import img11 from "../img/gallery/11.JPG";
 import img12 from "../img/gallery/12.JPG";
 import img13 from "../img/gallery/13.JPG";
-import img14 from "../img/gallery/14.JPG";
 import img15 from "../img/gallery/15.jpg";
 import QRC from "../img/QRC.png";
 import logo from "../img/logo512.png";
@@ -36,24 +33,24 @@ export default function Gallery() {
               <br />
               私の絵を使ってください！さようなら。
             </p>
-            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
               <a href="/sketches" className="p-1 ">
-                [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79
+                ✦ [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79 / Sketches
               </a>
             </div>
-            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
               <a href="/pictures" className="p-1">
-                [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70
+                ✦ [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70 / Photographs
               </a>
             </div>
-            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
               <a href="/3dmodels" className="p-1">
-                [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D
+                ✦ [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D / 3D Models
               </a>
             </div>
-            <div className="bg-len-White my-1 hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
               <a href="/stickers" className="p-1">
-                [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73
+                ✦ [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73 / Stickers
               </a>
             </div>
           </div>
@@ -89,47 +86,47 @@ export default function Gallery() {
         >
           <div className="grid grid-cols-3 p-9 gap-3 lg:gap-3 lg:grid-cols-3">
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img1}
               alt="1st Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img13}
               alt="2nd Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img3}
               alt="3rd Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img12}
               alt="4th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img5}
               alt="5th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img6}
               alt="6th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img7}
               alt="7th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img8}
               alt="8th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:skew-x-3 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
               src={img15}
               alt="9th Drawing"
             />
