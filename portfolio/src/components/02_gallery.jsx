@@ -14,71 +14,66 @@ import logo from "../img/logo512.png";
 export default function Gallery() {
   return (
     <div className="snap-start min-h-screen relative bg-len-Black">
-      <h1 className="visible relative md:absolute md:collapse text-6xl text-center p-10 font-NJPBold text-len-White">
-        美術館
-      </h1>
       <div className="md:grid md:grid-cols-2 lg:gap-2 p-9">
         <div className="relative flex flex-col justify-center md:justify-start pb-9 lg:pr-16 2xl:pr-40">
-          <div className="flex md:flex-row py-12">
-            <h1 className="absolute collapse md:relative md:visible text-6xl font-NJPBold text-len-White">
+          {/* Top Text */}
+          <div className="flex md:flex-row py-6 md:py-12">
+            <h1 className="relative md:visible text-4xl md:text-6xl font-NJPBold text-len-White">
               美術館
             </h1>
-            <h1 className="absolute collapse md:visible md:relative text-sm px-3 text-len-White">
+            <h1 className="relative text-xs md:text-sm px-3 text-len-White">
               / 0x67616C6C657279
             </h1>
           </div>
-          <div className="md:p-9 text-sm collapse md:visible absolute md:relative">
-            <p className="xl:text-xl font-NJPMedium text-len-White">
+          <div className="relative text-sm">
+            {/* Bottom Text */}
+            <p className="text-xs xl:text-xl font-NJPMedium text-len-White">
               私は絵を描くのが好きです。 現実逃避したい。
               <br />
               私の絵を使ってください！さようなら。
             </p>
-            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
-              <a href="/sketches" className="p-1 ">
-                ✦ [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79 / Sketches
+            <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
+              <a href="/sketches" className="p-1 text-center ">
+                ✦ [CURRENTLY_OFFLINE] 絵 / スケッチ / Sketches
               </a>
             </div>
-            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+            <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
               <a href="/pictures" className="p-1">
-                ✦ [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70 / Photographs
+                ✦ [CURRENTLY_OFFLINE] 写真 / しゃしん / Photographs
               </a>
             </div>
-            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+            <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
               <a href="/3dmodels" className="p-1">
-                ✦ [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D / 3D Models
+                ✦ [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 3D Models
               </a>
             </div>
-            <div className="bg-len-White my-1 py-2 font-NJPBlack hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White duration-300 hover:border hover:border-len-White">
+            <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
               <a href="/stickers" className="p-1">
-                ✦ [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73 / Stickers
+                ✦ [CURRENTLY_OFFLINE] 張り紙 / ステッカー / Stickers
               </a>
             </div>
           </div>
         </div>
-        {/* Mobile attention */}
-        <div className="relative md:absolute md:collapse h-[5rem]">
-          <div className="bg-len-White">
-            <div className="flex justify-center">
-              <div className="flex justify-center items-center w-12">
-                <img
-                  className="w-6 pointer-events-none invert"
-                  src={logo}
-                  alt="WHATDELETED"
-                />
-                <img
-                  className=" pointer-events-none invert mx-6"
-                  src={logo}
-                  alt="WHATDELETED"
-                />
-                <img
-                  className="w-6 pointer-events-none invert"
-                  src={logo}
-                  alt="WHATDELETED"
-                />
-              </div>
-            </div>
+        {/* Mobile attention
+        <div className=" md:absolute md:collapse">
+          <div className="flex flex-col flex-start m-3 ">
+            <a href="/sketches" className="p-1 bg-len-White ">
+              ✦ [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79 / Sketches
+            </a>
+
+            <a href="/pictures" className="p-1 bg-len-White">
+              ✦ [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70 / Photographs
+            </a>
+
+            <a href="/3dmodels" className="p-1 bg-len-White">
+              ✦ [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D / 3D Models
+            </a>
+
+            <a href="/stickers" className="p-1 bg-len-White">
+              ✦ [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73 / Stickers
+            </a>
           </div>
-        </div>
+        </div> */}
         {/* Gallery Tab */}
         <div
           id="Gallery"
@@ -86,47 +81,47 @@ export default function Gallery() {
         >
           <div className="grid grid-cols-3 p-9 gap-3 lg:gap-3 lg:grid-cols-3">
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img1}
               alt="1st Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img13}
               alt="2nd Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img3}
               alt="3rd Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img12}
               alt="4th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img5}
               alt="5th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img6}
               alt="6th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img7}
               alt="7th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img8}
               alt="8th Drawing"
             />
             <img
-              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 hover:skew-x-0 hover:transform hover:-translate-x-14 duration-700"
+              className="border-2 border-dashed border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:transform md:hover:-translate-x-14 duration-700"
               src={img15}
               alt="9th Drawing"
             />
