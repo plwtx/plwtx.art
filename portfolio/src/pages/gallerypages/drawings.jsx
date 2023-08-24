@@ -1,7 +1,7 @@
 import "../../App.css";
 // import logo from "../img/logo512.png";
 
-function Stickers() {
+function Drawings() {
   return (
     <div className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
       <div className="snap-start relative min-h-screen bg-len-Black">
@@ -12,8 +12,8 @@ function Stickers() {
               Stickers
             </h1>
             <p className="bg-white text-len-Black font-NJPBold p-6 m-3 skew-x-6">
-              Stickers are currently unavailable but once they are they will be
-              displayed here.
+              Drawings are currently unavailable but you can find them @pluwhi
+              on instagram !
             </p>
             <a
               href="/"
@@ -27,4 +27,4 @@ function Stickers() {
     </div>
   );
 }
-export default Stickers;
+export default Drawings;

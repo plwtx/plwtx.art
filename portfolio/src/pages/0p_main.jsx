@@ -4,7 +4,7 @@ import Home from "../components/01_home.jsx";
 import Gallery from "../components/02_gallery.jsx";
 import Map from "../components/03_map.jsx";
 import EndLetter from "../components/04_endLetter.jsx";
-import Loading from "../components/05_loading.jsx";
+import Loading from "../components/00_loading.jsx";
 
 function Main() {
   const [loading, setLoading] = useState(false);
