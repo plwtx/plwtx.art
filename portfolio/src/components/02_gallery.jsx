@@ -9,7 +9,6 @@ import img12 from "../img/gallery/12.JPG";
 import img13 from "../img/gallery/13.JPG";
 import img15 from "../img/gallery/15.jpg";
 import QRC from "../img/QRC.png";
-import logo from "../img/logo512.png";
 
 export default function Gallery() {
   return (
@@ -34,47 +33,26 @@ export default function Gallery() {
             </p>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
               <a href="/sketches" className="p-1 text-center ">
-                ✦ [CURRENTLY_OFFLINE] 絵 / スケッチ / Sketches
+                ✦ [SERVER_OFFLINE] 絵 / スケッチ / Drawings
               </a>
             </div>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
               <a href="/pictures" className="p-1">
-                ✦ [CURRENTLY_OFFLINE] 写真 / しゃしん / Photographs
+                ✦ [SERVER_OFFLINE] 写真 / しゃしん / Photographs
               </a>
             </div>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
               <a href="/3dmodels" className="p-1">
-                ✦ [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 3D Models
+                ✦ [SERVER_OFFLINE] 彫刻 / 3Dモデル / 3D Models
               </a>
             </div>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
               <a href="/stickers" className="p-1">
-                ✦ [CURRENTLY_OFFLINE] 張り紙 / ステッカー / Stickers
+                ✦ [SERVER_OFFLINE] 張り紙 / ステッカー / Stickers
               </a>
             </div>
           </div>
         </div>
-        {/* Mobile attention
-        <div className=" md:absolute md:collapse">
-          <div className="flex flex-col flex-start m-3 ">
-            <a href="/sketches" className="p-1 bg-len-White ">
-              ✦ [CURRENTLY_OFFLINE] 絵 / スケッチ / 0x79 / Sketches
-            </a>
-
-            <a href="/pictures" className="p-1 bg-len-White">
-              ✦ [CURRENTLY_OFFLINE] 写真 / しゃしん / 0x70 / Photographs
-            </a>
-
-            <a href="/3dmodels" className="p-1 bg-len-White">
-              ✦ [CURRENTLY_OFFLINE] 彫刻 / 3Dモデル / 0x6D / 3D Models
-            </a>
-
-            <a href="/stickers" className="p-1 bg-len-White">
-              ✦ [CURRENTLY_OFFLINE] 張り紙 / ステッカー / 0x73 / Stickers
-            </a>
-          </div>
-        </div> */}
-        {/* Gallery Tab */}
         <div
           id="Gallery"
           className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-screen md:w-auto md:relative md:flex md:justify-center md:items-center"
