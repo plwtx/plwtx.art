@@ -1,9 +1,17 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
 module.exports = {
   mode: "jit",
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      ".btn": {
+        backgroundColor: "#0033FF",
+        color: "#fff",
+        "&:hover": {
+          backgroundColor: "#3182ce",
+        },
+      },
       animation: {
         "spin-slow": "spin 12s linear infinite",
         "trigger-fast": "pulse 0.0666s ease-in-out infinite",
@@ -35,5 +43,27 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // Len's Plugins
+    plugin(function ({ addComponents }) {
+      addComponents({
+        ".poscenter": {
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%);",
+        },
+        ".posvertical": {
+          position: "absolute",
+          top: "50%",
+          transform: "translate(-50%);",
+        },
+        ".poshorizontal": {
+          position: "absolute",
+          left: "50%",
+          transform: "translate(-50%);",
+        },
+      });
+    }),
+  ],
 };

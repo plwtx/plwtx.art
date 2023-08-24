@@ -32,22 +32,22 @@ export default function Gallery() {
               私の絵を使ってください！さようなら。
             </p>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
-              <a href="/sketches" className="p-1 text-center ">
+              <a href="/gallery/sketches" className="p-1 text-center ">
                 ✦ [SERVER_OFFLINE] 絵 / スケッチ / Drawings
               </a>
             </div>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
-              <a href="/pictures" className="p-1">
+              <a href="/gallery/pictures" className="p-1">
                 ✦ [SERVER_OFFLINE] 写真 / しゃしん / Photographs
               </a>
             </div>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
-              <a href="/3dmodels" className="p-1">
+              <a href="/gallery/3dmodels" className="p-1">
                 ✦ [SERVER_OFFLINE] 彫刻 / 3Dモデル / 3D Models
               </a>
             </div>
             <div className="bg-len-White my-2 p-1 md:p-2 font-NJPBlack duration-300 text-left text-[0.65rem] md:text-base hover:scale-105 hover:ml-6 hover:bg-len-Black hover:text-len-White  hover:border hover:border-len-White">
-              <a href="/stickers" className="p-1">
+              <a href="/gallery/stickers" className="p-1">
                 ✦ [SERVER_OFFLINE] 張り紙 / ステッカー / Stickers
               </a>
             </div>
@@ -109,14 +109,14 @@ export default function Gallery() {
       {/* QR Code */}
       <div className="collapse md:visible absolute md:bottom-0 flex justify-center">
         <a
-          href="https://www.instagram.com/0x706c777478/"
+          href="https://www.instagram.com/pluwhi/"
           target="_blank"
           rel="noreferrer"
         >
           <img
             className="collapse md:visible md:m-9 md:h-36"
             src={QRC}
-            href="https://www.instagram.com/0x706c777478/"
+            href="https://www.instagram.com/pluwhi/"
             alt="1st Drawing"
           />
         </a>

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Main from "./pages/0p_main.jsx";
 import Error404 from "./pages/0p_error404.jsx";
 import Lab from "./pages/0p_lab.jsx";
+import Stickers from "./pages/gallerypages/stickers.jsx";
 import CaseHatsuneMiku829 from "./pages/observare/CaseHatsuneMiku829.jsx";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/Lab" element={<Lab />} />
+          <Route path="/gallery/stickers" element={<Stickers />} />
           <Route path="/CaseHatsuneMiku829" element={<CaseHatsuneMiku829 />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
