@@ -71,8 +71,8 @@ export default function Home() {
       s{/* Main Text */}
       <div className="flex flex-col xl:h-screen justify-center items-center text-len-White text-left p-3 py-9">
         <h1 className="text-[5rem] xl:text-[9rem] font-NJPSemiBold">冥王星</h1>
-        <h1 className="text-[0.55rem] xl:text-[0.95rem] font-NJPExtraLight">
-          Welcome to the portal. The network is where I exist.
+        <h1 className="text-[0.65rem] xl:text-[1rem] font-NJPLight">
+          人類研究項目 | 自殺控制設施 | 哭泣的女孩
         </h1>
       </div>
       {/* Menu Select */}
