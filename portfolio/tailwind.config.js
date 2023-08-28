@@ -5,6 +5,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        "9l": "0px 0px 15px 5px rgba(0, 0, 0, 0.3)",
+      },
       ".btn": {
         backgroundColor: "#0033FF",
         color: "#fff",
