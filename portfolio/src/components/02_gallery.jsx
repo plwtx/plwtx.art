@@ -106,6 +106,7 @@ export default function Gallery() {
           </div>
         </div>
       </div>
+
       {/* QR Code */}
       <div className="collapse md:visible absolute md:bottom-0 flex justify-center">
         <a

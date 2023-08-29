@@ -73,6 +73,29 @@ export default function Map() {
           </a>
         </div>
       </div>
+      {/* Corners */}
+      <div className="">
+        <img
+          className="absolute top-0 left-0 invert pointer-events-none w-10"
+          src={logo}
+          alt="CornerTopLeft"
+        />
+        <img
+          className="absolute top-0 right-0 invert pointer-events-none w-10"
+          src={logo}
+          alt="CornerTopRight"
+        />
+        <img
+          className="absolute bottom-0 left-0 invert pointer-events-none w-10"
+          src={logo}
+          alt="CornerBottomLeft"
+        />
+        <img
+          className="absolute bottom-0 right-0 invert pointer-events-none w-10"
+          src={logo}
+          alt="CornerBottomRight"
+        />
+      </div>
     </div>
   );
 }
