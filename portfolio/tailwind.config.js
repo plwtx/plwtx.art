@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       boxShadow: {
         "9l": "0px 0px 15px 5px rgba(0, 0, 0, 0.3)",
+        "9x": "35px 0px 0px 3px rgba(0, 0, 0, 0.1)",
       },
+
       ".btn": {
         backgroundColor: "#0033FF",
         color: "#fff",
