@@ -59,47 +59,47 @@ export default function Gallery() {
         >
           <div className="grid grid-cols-3 p-9 gap-3 lg:gap-3 lg:grid-cols-3">
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img1}
               alt="1st Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img13}
               alt="2nd Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img3}
               alt="3rd Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img12}
               alt="4th Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img5}
               alt="5th Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img6}
               alt="6th Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img7}
               alt="7th Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img8}
               alt="8th Drawing"
             />
             <img
-              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:invert hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
+              className="border shadow-9l rounded-xl hover:rounded-3xl shadow-len-Black border-len-Black skew-x-6 hover:scale-125 hover:z-30 md:hover:skew-x-0 hover:shadow-len-White hover:border-len-White hover:border-8 hover:transform md:hover:-translate-x-14 duration-700"
               src={img15}
               alt="9th Drawing"
             />
