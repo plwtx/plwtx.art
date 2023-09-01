@@ -38,8 +38,8 @@ export default function EndLetter() {
             flags, tanks and cute things. I also like drawing (sometimes). I
             grant you all rights to my drawings. Print them out, post them, do
             whatever your heart desires (Perhaps use them as your silly Twitter
-            PFPs ! =^･-･^=). You don't have to credit me. I am currently trying
-            my best to continue my education abroad. Please wish luck for me.
+            PFPs ! =^･-･^=). You don't have to credit me. Please wish luck for
+            me.
           </p>
           <br />
           <div className="flex flex-row">
