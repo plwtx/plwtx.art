@@ -30,21 +30,20 @@ export default function EndLetter() {
         {/* Album Boxes */}
         <div id="Letter" className="m-9 md:m-0 md:w-[38%] md:p-9 bg-len-Black">
           <p className="text-[0.55rem] md:text-xl font-NJPMedium text-len-White">
-            誰もが思想、良心、宗教の自由を得る権利を持っています。
+            かわいい人間、また会いましょう。
           </p>
-          <p className="text-[0.55rem] md:text-[0.8rem] font-IMFellEnglishSC text-justify text-len-White">
-            Hi, please call me Len (though that's not my official name). I am a
-            scholar specializing in computer science. I like music, linguistics,
-            flags, tanks and cute things. I also like drawing (sometimes). I
-            grant you all rights to my drawings. Print them out, post them, do
-            whatever your heart desires (Perhaps use them as your silly Twitter
-            PFPs ! =^･-･^=). You don't have to credit me. Please wish luck for
-            me.
+          <p className="text-[0.55rem] md:text-[0.9rem] font-IMFellEnglishSC text-justify text-len-White">
+            Hi, please call me Len (though that's not my official name). I like
+            music, linguistics, flags, my friends, tanks and cute things. I also
+            like drawing (sometimes). My art is strictly forbidden as for NFT or
+            AI use. Otherwise, you can print them out (for personal use only),
+            post them, do whatever your heart desires (Perhaps use them as your
+            silly Instagram PFPs ! =^･-･^=). Please wish luck for me.
           </p>
           <br />
           <div className="flex flex-row">
             <p className="text-[0.75rem] xl:text-sm lg:text-xl font-NJPBold text-len-White">
-              冥王星 / plwtx / Pluwia ad Astra /
+              冥王星 / plwtx / pluwhi / Pluwia ad Astra /
             </p>
             <p className="px-1 text-[0.75rem] xl:text-sm lg:text-xl font-NJPBold text-len-White">
               {/* Empty */}
