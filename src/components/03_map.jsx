@@ -1,6 +1,10 @@
 import "../App.css";
 import COL from "../img/COL.PNG";
-import logo from "../img/logo512.png";
+import edge from "../img/clock/edge.PNG";
+import clock from "../img/clock/clock.PNG";
+import hour from "../img/clock/hour.PNG";
+import minute from "../img/clock/minute.PNG";
+import second from "../img/clock/second.PNG";
 import stikr from "../img/stikr.PNG";
 import { useState, useEffect } from "react";
 
@@ -19,32 +23,39 @@ export default function Map() {
   return (
     <div id="Map" className="snap-start relative min-h-screen bg-len-Black">
       <div>
-        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 p-6">
-          <img
-            className="pointer-events-none w-10"
-            src={logo}
-            alt="WHATDELETED"
-          />
-        </div>
         <h1 className="absolute subpixel-antialiased tracking-wide text-xl text-len-Black">
           {ip}
         </h1>
       </div>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
         <img
-          className="pointer-events-none min-h-[23rem] min-w-[23rem] lg:h-[35rem] p-9 -z-10 animate-spin-slow"
-          src={stikr}
+          className="min-h-[18rem] min-w-[18rem] lg:h-[40rem] p-9 z-10"
+          src={clock}
           alt="Chainik"
         />
       </div>
-      <div className="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <img
-          className="min-h-[18rem] min-w-[18rem] lg:h-[30rem] p-9 z-10"
-          src={COL}
+          className="pointer-events-none min-h-[23rem] min-w-[23rem] lg:h-[35rem] p-9 z-10 animate-spin-hour"
+          src={hour}
           alt="Chainik"
         />
       </div>
 
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <img
+          className="pointer-events-none min-h-[23rem] min-w-[23rem] lg:h-[35rem] p-9 z-10 animate-spin-minute"
+          src={minute}
+          alt="Chainik"
+        />
+      </div>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <img
+          className="pointer-events-none min-h-[23rem] min-w-[23rem] lg:h-[35rem] p-9 z-50 animate-spin-second"
+          src={second}
+          alt="Chainik"
+        />
+      </div>
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-3">
         <div className="flex flex-col text-cente font-NJPExtraLight text-center pb-6">
           <a
@@ -76,23 +87,23 @@ export default function Map() {
       {/* Corners */}
       <div className="">
         <img
-          className="absolute top-0 left-0 invert pointer-events-none w-10"
-          src={logo}
+          className="absolute rotate-90 top-0 left-0 pointer-events-none w-72"
+          src={edge}
           alt="CornerTopLeft"
         />
         <img
-          className="absolute top-0 right-0 invert pointer-events-none w-10"
-          src={logo}
+          className="absolute  transform -scale-100 top-0 right-0 pointer-events-none w-72"
+          src={edge}
           alt="CornerTopRight"
         />
         <img
-          className="absolute bottom-0 left-0 invert pointer-events-none w-10"
-          src={logo}
+          className="absolute bottom-0 left-0 pointer-events-none w-72"
+          src={edge}
           alt="CornerBottomLeft"
         />
         <img
-          className="absolute bottom-0 right-0 invert pointer-events-none w-10"
-          src={logo}
+          className="absolute -rotate-90 bottom-0 right-0 pointer-events-none w-72"
+          src={edge}
           alt="CornerBottomRight"
         />
       </div>

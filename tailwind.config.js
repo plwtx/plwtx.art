@@ -19,6 +19,10 @@ module.exports = {
       },
       animation: {
         "spin-slow": "spin 12s linear infinite",
+        "spin-second": "spin 1s linear infinite",
+        "spin-minute": "spin 6s linear infinite",
+        "spin-hour": "spin 15s linear infinite",
+
         "trigger-fast": "pulse 0.0666s ease-in-out infinite",
         "trigger-medium": "pulse 0.5s ease-in-out infinite",
       },
