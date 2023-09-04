@@ -1,11 +1,9 @@
 import "../App.css";
-import COL from "../img/COL.PNG";
 import edge from "../img/clock/edge.PNG";
 import clock from "../img/clock/clock.PNG";
 import hour from "../img/clock/hour.PNG";
 import minute from "../img/clock/minute.PNG";
 import second from "../img/clock/second.PNG";
-import stikr from "../img/stikr.PNG";
 import { useState, useEffect } from "react";
 
 export default function Map() {
