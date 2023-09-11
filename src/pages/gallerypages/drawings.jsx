@@ -9,7 +9,7 @@ function Drawings() {
         <div className="m-3 p-3 pt-64 border-3 border-len-White rounded-xl flex justify-center">
           <div className=" m-9 p-9 px-16 border border-len-White">
             <h1 className=" text-len-Black bg-white text-center p-2 m-3 font-NJPBold skew-x-6">
-              Stickers
+              Drawings
             </h1>
             <p className="bg-white text-len-Black font-NJPBold p-6 m-3 skew-x-6">
               Drawings are currently unavailable but you can find them @pluwhi

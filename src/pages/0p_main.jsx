@@ -13,14 +13,14 @@ function Main() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2666);
+    }, 2333);
   }, []);
   return (
     <div>
       {loading ? (
         <Loading />
       ) : (
-        <section className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
+        <section className="snap-y snap-mandatory scroll-smooth md:scroll-auto h-screen overflow-scroll overflow-x-hidden">
           <Home />
           <Gallery />
           <Map />

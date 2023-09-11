@@ -1,6 +1,5 @@
 import "../App.css";
 import edge from "../img/clock/edge.PNG";
-import clock from "../img/clock/clock.PNG";
 import clockTransparent from "../img/clock/clockTransparent.PNG";
 import hour from "../img/clock/hour.PNG";
 import minute from "../img/clock/minute.PNG";
@@ -26,6 +25,7 @@ export default function Map() {
           {ip}
         </h1>
       </div>
+      {/* Clock */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
         <img
           className="min-h-[33rem] min-w-[33rem] lg:h-[45rem] p-9 z-10"
@@ -33,19 +33,18 @@ export default function Map() {
           alt="Clock"
         />
       </div>
-
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <img
-          className="pointer-events-none min-h-[25rem] min-w-[25rem] lg:h-[35rem] p-9 z-10 animate-spin-minute"
-          src={minute}
-          alt="MinuteHand"
-        />
-      </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <img
           className="pointer-events-none min-h-[25rem] min-w-[25rem] lg:h-[35rem] p-9 z-50 animate-spin-second"
           src={second}
           alt="SecondHand"
+        />
+      </div>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <img
+          className="pointer-events-none min-h-[25rem] min-w-[25rem] lg:h-[35rem] p-9 z-10 animate-spin-minute"
+          src={minute}
+          alt="MinuteHand"
         />
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
