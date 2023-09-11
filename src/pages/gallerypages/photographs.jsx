@@ -1,4 +1,5 @@
 import "../../App.css";
+import img1 from "../../img/plog/img1.PNG";
 // import logo from "../img/logo512.png";
 
 function Photographs() {
@@ -38,6 +39,38 @@ function Photographs() {
               2020
             </a>
           </div>
+        </div>
+        {/* PLOG Content */}
+        <div className="flex justify-center items-center md:p-6 xl:p-9">
+          <figure className="lg:flex w-[55%] bg-len-White rounded-lg lg:rounded-2xl m-6 lg:m-0">
+            <img
+              src={img1}
+              alt="1st Entry"
+              className="mb-3 lg:m-0  mx-auto w-auto md:w-[15rem] md:h-[15rem] lg:w-[20rem] lg:h-[20rem] rounded-t-3xl lg:rounded-t-2xl lg:rounded-l-2xl lg:mr-6"
+            />
+            <div className="flex flex-col justify-center">
+              <blockquote>
+                <p class="text-[0.55rem] mx-auto lg:mx-0 lg:text-[1rem] text-justify p-2 md:text-left font-light w-[88%] md:py-3">
+                  “On the SAO game front, Sword Art Online Alicization Lycoris,
+                  the supposedly final game in the SAO game series, was released
+                  in Japan on July 9, 2020 (for the PlayStation consoles) and in
+                  the West on July 10, 2020. The four free DLCs have been
+                  released for the game and we are now waiting for the release
+                  of the first paid DLC, Myosotis (a.k.a. "The Blooming of the
+                  forget-me-not" in the West). As the paid DLC is much more
+                  expansive than the free DLCs and is sold separately, the game
+                  producers cannot yet give any specifics for when they plan to
+                  release the DLC.”
+                </p>
+              </blockquote>
+              <figcaption class="text-[0.5rem] md:text-[0.65rem] lg:text-[0.8rem] py-3 text-center lg:text-left">
+                <div class="text-indigo-500">Sword Art Online</div>
+                <div class="text-slate-700 dark:text-slate-500">
+                  2023 / 09 / 11
+                </div>
+              </figcaption>
+            </div>
+          </figure>
         </div>
       </div>
     </div>
