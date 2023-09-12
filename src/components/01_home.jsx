@@ -100,13 +100,14 @@ export default function Home() {
       {/* Desktop Home Image */}
       <div className="">
         <img
-          className="absolute bottom-0 right-0 pointer-events-none collapse px-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]"
+          className="absolute bottom-0 right-0  collapse px-6 sm:visible sm:min-w-[460px] sm:max-w-[500px] md:min-w-[540px] md:max-w-[600px]"
           src={imageData}
           alt="Desktop"
+          // onClick={() => function}
         />
         <div className="flex justify-center items-center">
           <img
-            className="absolute bottom-0 pointer-events-none sm:collapse px-6 min-w-[320px] max-w-[350px]"
+            className="absolute bottom-0  sm:collapse px-6 min-w-[320px] max-w-[350px]"
             src={imageData}
             alt="Mobile"
           />
