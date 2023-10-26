@@ -4,6 +4,8 @@ import secondStickerWeb from "../img/stickers/sticker2.png";
 import thirdStickerWeb from "../img/stickers/sticker3.png";
 import fourthStickerWeb from "../img/stickers/sticker4.PNG";
 import fifthStickerWeb from "../img/stickers/sticker5.PNG";
+import cog from "../img/cog.png";
+
 import Randomizer from "./00_randomizer.jsx";
 const data = [
   {
@@ -65,14 +67,21 @@ export default function Home() {
 
   return (
     <div id="Home" className="snap-start relative min-h-screen bg-len-Black">
+      <img
+        className="absolute left-[-8%] top-[-8%] px-6 min-w-[220px] max-w-[250px] animate-spin-second invert"
+        src={cog}
+        alt="ClockCog"
+      />
       <div className="collapse lg:visible text-len-White absolute top-0 left-1/2 transform -translate-x-1/2 p-1 font-NJPExtraLight text-base cursor-default">
         <Randomizer />
       </div>
       s{/* Main Text */}
       <div className="flex flex-col xl:h-screen justify-center items-center text-len-White text-left p-3 py-9">
-        <h1 className="text-[5rem] xl:text-[9rem] font-NJPSemiBold">冥王星</h1>
-        <h1 className="text-[0.65rem] xl:text-[1rem] font-NJPLight">
-          人類研究項目 | 自殺控制設施 | 哭泣的女孩
+        <h1 className="text-[4rem] xl:text-[3rem] font-NJPExtraLight">
+          0x706c75
+        </h1>
+        <h1 className="text-[0.55rem] xl:text-[0.75rem] font-NJPLight">
+          Len Hera | 自殺控制設施 | plwtx
         </h1>
       </div>
       {/* Menu Select */}

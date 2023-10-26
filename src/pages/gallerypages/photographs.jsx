@@ -1,19 +1,15 @@
 import "../../App.css";
-import img1 from "../../img/plog/img1.PNG";
 import img2 from "../../img/plog/img2.png";
 import img3 from "../../img/plog/img3.png";
 import img4 from "../../img/plog/img4.png";
 import img5 from "../../img/plog/img5.jpg";
-import img6 from "../../img/plog/img6.jpg";
 import img7 from "../../img/plog/img7.jpg";
-import img8 from "../../img/plog/img8.jpg";
 import img9 from "../../img/plog/img9.jpg";
-import img10 from "../../img/plog/img10.jpg";
 // import logo from "../img/logo512.png";
 
 function Photographs() {
   return (
-    <div className=" h-screen overflow-scroll overflow-x-hidden">
+    <div className="h-screen overflow-scroll overflow-x-hidden">
       <div className="absolute poscenter left-0 mx-9 w-[2px] h-[85%] bg-len-White z-10 pointer-events-none"></div>
       <div className=" relative min-h-screen bg-len-Black">
         {/* Code */}
