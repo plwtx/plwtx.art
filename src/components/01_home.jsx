@@ -1,10 +1,11 @@
 import "../App.css";
+import cros from "../img/plCros.PNG";
+import crest from "../img/plCrest.PNG";
 import firstStickerWeb from "../img/stickers/sticker1.png";
 import secondStickerWeb from "../img/stickers/sticker2.png";
 import thirdStickerWeb from "../img/stickers/sticker3.png";
 import fourthStickerWeb from "../img/stickers/sticker4.PNG";
 import fifthStickerWeb from "../img/stickers/sticker5.PNG";
-import cog from "../img/cog.png";
 
 import Randomizer from "./00_randomizer.jsx";
 const data = [
@@ -67,22 +68,29 @@ export default function Home() {
 
   return (
     <div id="Home" className="snap-start relative min-h-screen bg-len-Black">
-      <img
-        className="absolute left-[-8%] top-[-8%] px-6 min-w-[220px] max-w-[250px] animate-spin-second invert"
-        src={cog}
-        alt="ClockCog"
-      />
       <div className="collapse lg:visible text-len-White absolute top-0 left-1/2 transform -translate-x-1/2 p-1 font-NJPExtraLight text-base cursor-default">
         <Randomizer />
       </div>
       s{/* Main Text */}
-      <div className="flex flex-col xl:h-screen justify-center items-center text-len-White text-left p-3 py-9">
-        <h1 className="text-[4rem] xl:text-[3rem] font-NJPExtraLight">
-          0x706c75
-        </h1>
-        <h1 className="text-[0.55rem] xl:text-[0.75rem] font-NJPLight">
-          Len Hera | 自殺控制設施 | plwtx
-        </h1>
+      <div className="absolute left-0 top-0 p-16">
+        <div className="flex flex-row">
+          <img
+            className="max-h-[150px] max-w-[150px] mr-6"
+            src={crest}
+            alt="crest"
+          />
+          <div className="text-len-White text-left">
+            <h1 className="text-[2rem] xl:text-[1.95rem] font-NJPExtraLight">
+              pluwia ad astra
+            </h1>
+            <h1 className="text-[0.35rem] xl:text-[0.75rem] font-NJPLight">
+              Len Hera
+            </h1>
+            <h1 className="text-[0.35rem] xl:text-[0.75rem] font-NJPLight">
+              [ pluwhi | plwtx ]
+            </h1>
+          </div>
+        </div>
       </div>
       {/* Menu Select */}
       <div className="z-40 flex flex-col mx-20 justify-center items-center sm:items-start md:absolute lg:absolute md:bottom-0 lg:bottom-0 sm:p-3 sm:m-20 text-2xl sm:text-[2rem] bg-len-White text-len-Black font-NJPMedium border-4 border-len-White divide-y divide-len-Black ">
