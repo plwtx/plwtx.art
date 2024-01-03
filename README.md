@@ -1,3 +1,3 @@
-
-shut the fuck up## Pluwia as Astra
-PROJECT CANCELLED
+### ATTENTION
+Project is archive and replaced by new project called plu.moe.
+Have a nice day [^~^]
