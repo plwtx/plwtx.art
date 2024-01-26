@@ -8,3 +8,4 @@ i am sorry for abandoning you plwtx.
 0 such a boring day, got a new kurtka tho.
 +1 two exam one big reward
 +1 one big day
++1 cutest girl with cutest girl
