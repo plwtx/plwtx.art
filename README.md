@@ -9,3 +9,4 @@ i am sorry for abandoning you plwtx.
 +1 two exam one big reward
 +1 one big day
 +1 cutest girl with cutest girl
++1 first time losing
