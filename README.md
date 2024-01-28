@@ -10,3 +10,4 @@ i am sorry for abandoning you plwtx.
 +1 one big day
 +1 cutest girl with cutest girl
 +1 first time losing
++1 a goodbye and a cute day
