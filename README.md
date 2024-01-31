@@ -13,3 +13,4 @@ i am sorry for abandoning you plwtx.
 +1 a goodbye and a cute day
 0 tiring start in a bus / first fail
 +1 hotel ? +400€ 
+0 mess of a day
