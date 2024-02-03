@@ -17,12 +17,8 @@ export default function Gallery() {
         <div className="relative flex flex-col justify-center md:justify-start pb-9 lg:pr-16 2xl:pr-40">
           {/* Top Text */}
           <div className="flex md:flex-row py-3 md:py-12">
-            <h1 className="relative md:visible text-4xl md:text-6xl font-NJPBold text-len-White">
-              美術館
-            </h1>
-            <h1 className="relative text-xs md:text-sm px-3 text-len-White">
-              / 0x67616C6C657279
-            </h1>
+            <h1 className="relative md:visible text-4xl md:text-6xl font-NJPBold text-len-White">美術館</h1>
+            <h1 className="relative text-xs md:text-sm px-3 text-len-White">/ 0x67616C6C657279</h1>
           </div>
           <div className="relative text-sm">
             {/* Bottom Text */}
@@ -109,15 +105,11 @@ export default function Gallery() {
 
       {/* QR Code */}
       <div className="collapse md:visible absolute md:bottom-0 flex justify-center">
-        <a
-          href="https://www.instagram.com/pluwhi/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://www.instagram.com/plwtx/" target="_blank" rel="noreferrer">
           <img
             className="collapse md:visible md:m-9 md:h-36"
             src={QRC}
-            href="https://www.instagram.com/pluwhi/"
+            href="https://www.instagram.com/plwtx/"
             alt="1st Drawing"
           />
         </a>
