@@ -16,3 +16,4 @@ i am sorry for abandoning you plwtx.
 0 mess of a day
 -1 one with my loneliness
 +1 loved yet scared of clubs
++1 penguins make happy
