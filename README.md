@@ -1,5 +1,4 @@
 ### ATTENTION
-
 Project is archived and replaced by new project called plu.moe.
 Have a nice day [^~^]
 i am sorry for abandoning you plwtx.
@@ -13,7 +12,7 @@ i am sorry for abandoning you plwtx.
 +1 first time losing
 +1 a goodbye and a cute day
 0 tiring start in a bus / first fail
-+1 hotel ? +400€
++1 hotel ? +400€ 
 0 mess of a day
 -1 one with my loneliness
 +1 loved yet scared of clubs
