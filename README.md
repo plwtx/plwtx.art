@@ -18,3 +18,4 @@ i am sorry for abandoning you plwtx.
 +1 loved yet scared of clubs
 +1 penguins make happy
 +1 sink should not contain spaghetti
+-1 yuuki understood
