@@ -20,3 +20,4 @@ i am sorry for abandoning you plwtx.
 +1 sink should not contain spaghetti
 -1 yuuki understood
 +1 passed exam
+0 goofy ah
