@@ -24,3 +24,4 @@ i am sorry for abandoning you plwtx.
 -1 silence sikence
 +1 CSGO 
 +1 Drawings
++1 Coding and Valorant
