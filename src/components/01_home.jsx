@@ -72,13 +72,13 @@ export default function Home() {
         <Randomizer />
       </div>
       s{/* Main Text */}
-      <div className="absolute left-0 top-0 p-16">
+      <div className="relative p-16">
         <div className="flex flex-row">
-          <img className="max-h-[150px] max-w-[150px] mr-6" src={crest} alt="crest" />
+          <img className="max-h-[100px] max-w-fit mr-6" src={crest} alt="crest" />
           <div className="text-len-White text-left">
-            <h1 className="text-[2rem] xl:text-[1.95rem] font-NJPExtraLight">pluwia ad astra</h1>
-            <h1 className="text-[0.35rem] xl:text-[0.75rem] font-NJPLight">Len Hera</h1>
-            <h1 className="text-[0.35rem] xl:text-[0.55rem] font-NJPLight">2024 | plwtx</h1>
+            <h1 className="text-[1rem] xl:text-[1.95rem] leading-tight pb-2 font-NJPExtraLight">pluwia ad astra</h1>
+            <h1 className="text-[0.55rem] xl:text-[0.75rem] font-NJPLight">Len Hera</h1>
+            <h1 className="text-[0.55rem] xl:text-[0.55rem] font-NJPLight">2024 | plwtx</h1>
           </div>
         </div>
       </div>
