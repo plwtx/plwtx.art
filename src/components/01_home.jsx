@@ -67,16 +67,16 @@ export default function Home() {
   });
 
   return (
-    <div id="Home" className="snap-start relative min-h-screen bg-len-Black">
+    <div id="Home" className="snap-start relative min-h-dvh bg-len-Black">
       <div className="collapse lg:visible text-len-White absolute top-0 left-1/2 transform -translate-x-1/2 p-1 font-NJPExtraLight text-base cursor-default">
         <Randomizer />
       </div>
       s{/* Main Text */}
       <div className="relative p-16">
         <div className="flex flex-row">
-          <img className="max-h-[100px] max-w-fit mr-6" src={crest} alt="crest" />
-          <div className="text-len-White text-left">
-            <h1 className="text-[1rem] xl:text-[1.95rem] leading-tight pb-2 font-NJPExtraLight">pluwia ad astra</h1>
+          <img className=" mx-auto md:mx-0 max-h-[150px] max-w-fit md:mr-6" src={crest} alt="crest" />
+          <div className="invisible absolute md:relative md:visible  text-len-White text-left">
+            <h1 className=" text-[1rem] xl:text-[1.95rem] leading-tight pb-2 font-NJPExtraLight">pluwia ad astra</h1>
             <h1 className="text-[0.55rem] xl:text-[0.75rem] font-NJPLight">Len Hera</h1>
             <h1 className="text-[0.55rem] xl:text-[0.55rem] font-NJPLight">2024 | plwtx</h1>
           </div>

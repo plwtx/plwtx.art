@@ -12,7 +12,7 @@ import QRC from "../img/QRC.png";
 
 export default function Gallery() {
   return (
-    <div className="snap-start min-h-screen relative bg-len-Black">
+    <div className="snap-start min-h-dvh relative bg-len-Black">
       <div className="md:grid md:grid-cols-2 lg:gap-2 p-9">
         <div className="relative flex flex-col justify-center md:justify-start pb-9 lg:pr-16 2xl:pr-40">
           {/* Top Text */}

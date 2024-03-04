@@ -19,19 +19,13 @@ export default function Map() {
   }, []);
 
   return (
-    <div id="Map" className="snap-start relative min-h-screen bg-len-Black">
+    <div id="Map" className="snap-start relative min-h-dvh bg-len-Black">
       <div>
-        <h1 className="absolute subpixel-antialiased tracking-wide text-xl text-len-Black">
-          {ip}
-        </h1>
+        <h1 className="absolute subpixel-antialiased tracking-wide text-xl text-len-Black">{ip}</h1>
       </div>
       {/* Clock */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
-        <img
-          className="min-h-[33rem] min-w-[33rem] lg:h-[45rem] p-9 z-10"
-          src={clockTransparent}
-          alt="Clock"
-        />
+        <img className="min-h-[33rem] min-w-[33rem] lg:h-[45rem] p-9 z-10" src={clockTransparent} alt="Clock" />
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <img
@@ -84,21 +78,13 @@ export default function Map() {
       </div>
       {/* Corners */}
       <div className="">
-        <img
-          className="absolute rotate-90 top-0 left-0 pointer-events-none w-72"
-          src={edge}
-          alt="CornerTopLeft"
-        />
+        <img className="absolute rotate-90 top-0 left-0 pointer-events-none w-72" src={edge} alt="CornerTopLeft" />
         <img
           className="absolute  transform -scale-100 top-0 right-0 pointer-events-none w-72"
           src={edge}
           alt="CornerTopRight"
         />
-        <img
-          className="absolute bottom-0 left-0 pointer-events-none w-72"
-          src={edge}
-          alt="CornerBottomLeft"
-        />
+        <img className="absolute bottom-0 left-0 pointer-events-none w-72" src={edge} alt="CornerBottomLeft" />
         <img
           className="absolute -rotate-90 bottom-0 right-0 pointer-events-none w-72"
           src={edge}

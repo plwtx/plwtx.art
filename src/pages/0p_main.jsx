@@ -20,7 +20,7 @@ function Main() {
       {loading ? (
         <Loading />
       ) : (
-        <section className="snap-y snap-mandatory scroll-smooth md:scroll-auto h-screen overflow-scroll overflow-x-hidden">
+        <section className="snap-y snap-mandatory scroll-smooth md:scroll-auto h-dvh overflow-scroll overflow-x-hidden">
           <Home />
           <Gallery />
           <Map />

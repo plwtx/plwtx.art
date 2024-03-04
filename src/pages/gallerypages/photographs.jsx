@@ -9,37 +9,25 @@ import img9 from "../../img/plog/img9.jpg";
 
 function Photographs() {
   return (
-    <div className="h-screen overflow-scroll overflow-x-hidden">
+    <div className="h-dvh overflow-scroll overflow-x-hidden">
       <div className="absolute poscenter left-0 mx-9 w-[2px] h-[85%] bg-len-White z-10 pointer-events-none"></div>
-      <div className=" relative min-h-screen bg-len-Black">
+      <div className=" relative min-h-dvh bg-len-Black">
         {/* Code */}
         {/* vertical lines */}
 
         {/* Year Menu */}
         <div className="absolute poscenter left-0 text-len-White font-NJPBlack mx-9 z-20 ">
           <div className="flex flex-col ">
-            <a
-              className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black "
-              href="#H"
-            >
+            <a className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black " href="#H">
               one
             </a>
-            <a
-              className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black "
-              href="#P"
-            >
+            <a className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black " href="#P">
               will
             </a>
-            <a
-              className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black "
-              href="#T"
-            >
+            <a className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black " href="#T">
               not
             </a>
-            <a
-              className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black "
-              href="#X"
-            >
+            <a className="bg-len-Black px-1 my-3 hover:bg-len-White hover:text-len-Black " href="#X">
               lose
             </a>
           </div>
@@ -59,19 +47,15 @@ function Photographs() {
                 {/* <div className="overflow-clip object-contain text-[0.5rem] sm:text-[0.65rem] md:text-[0.75rem] lg:text-[0.85rem] xl:text-[0.85rem] 2xl:text-[1rem] mx-auto lg:mx-0 md:p-3 text-justify p-2 md:text-left font-light w-[88%] md:py-3"> */}
                 <blockquote>
                   <p class="">
-                    "But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happiness."
+                    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system, and expound the actual teachings of the
+                    great explorer of the truth, the master-builder of human happiness."
                   </p>
                   <br />
                 </blockquote>
                 <figcaption class="text-center lg:text-left">
                   <div class="text-indigo-500">Sword Art Online</div>
-                  <div class="text-slate-700 dark:text-slate-500">
-                    2023 / 09 / 11
-                  </div>
+                  <div class="text-slate-700 dark:text-slate-500">2023 / 09 / 11</div>
                 </figcaption>
               </div>
             </div>
@@ -91,19 +75,15 @@ function Photographs() {
                 {/* <div className="overflow-clip object-contain text-[0.5rem] sm:text-[0.65rem] md:text-[0.75rem] lg:text-[0.85rem] xl:text-[0.85rem] 2xl:text-[1rem] mx-auto lg:mx-0 md:p-3 text-justify p-2 md:text-left font-light w-[88%] md:py-3"> */}
                 <blockquote>
                   <p class="">
-                    "But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happiness."
+                    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system, and expound the actual teachings of the
+                    great explorer of the truth, the master-builder of human happiness."
                   </p>
                   <br />
                 </blockquote>
                 <figcaption class="text-center lg:text-left">
                   <div class="text-indigo-500">Sword Art Online</div>
-                  <div class="text-slate-700 dark:text-slate-500">
-                    2023 / 09 / 11
-                  </div>
+                  <div class="text-slate-700 dark:text-slate-500">2023 / 09 / 11</div>
                 </figcaption>
               </div>
             </div>
@@ -123,19 +103,15 @@ function Photographs() {
                 {/* <div className="overflow-clip object-contain text-[0.5rem] sm:text-[0.65rem] md:text-[0.75rem] lg:text-[0.85rem] xl:text-[0.85rem] 2xl:text-[1rem] mx-auto lg:mx-0 md:p-3 text-justify p-2 md:text-left font-light w-[88%] md:py-3"> */}
                 <blockquote>
                   <p class="">
-                    "But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happiness."
+                    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system, and expound the actual teachings of the
+                    great explorer of the truth, the master-builder of human happiness."
                   </p>
                   <br />
                 </blockquote>
                 <figcaption class="text-center lg:text-left">
                   <div class="text-indigo-500">Sword Art Online</div>
-                  <div class="text-slate-700 dark:text-slate-500">
-                    2023 / 09 / 11
-                  </div>
+                  <div class="text-slate-700 dark:text-slate-500">2023 / 09 / 11</div>
                 </figcaption>
               </div>
             </div>
@@ -156,19 +132,15 @@ function Photographs() {
                 {/* <div className="overflow-clip object-contain text-[0.5rem] sm:text-[0.65rem] md:text-[0.75rem] lg:text-[0.85rem] xl:text-[0.85rem] 2xl:text-[1rem] mx-auto lg:mx-0 md:p-3 text-justify p-2 md:text-left font-light w-[88%] md:py-3"> */}
                 <blockquote>
                   <p class="">
-                    "But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happiness."
+                    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system, and expound the actual teachings of the
+                    great explorer of the truth, the master-builder of human happiness."
                   </p>
                   <br />
                 </blockquote>
                 <figcaption class="text-center lg:text-left">
                   <div class="text-indigo-500">Sword Art Online</div>
-                  <div class="text-slate-700 dark:text-slate-500">
-                    2023 / 09 / 11
-                  </div>
+                  <div class="text-slate-700 dark:text-slate-500">2023 / 09 / 11</div>
                 </figcaption>
               </div>
             </div>
@@ -188,19 +160,15 @@ function Photographs() {
                 {/* <div className="overflow-clip object-contain text-[0.5rem] sm:text-[0.65rem] md:text-[0.75rem] lg:text-[0.85rem] xl:text-[0.85rem] 2xl:text-[1rem] mx-auto lg:mx-0 md:p-3 text-justify p-2 md:text-left font-light w-[88%] md:py-3"> */}
                 <blockquote>
                   <p class="">
-                    "But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happiness."
+                    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system, and expound the actual teachings of the
+                    great explorer of the truth, the master-builder of human happiness."
                   </p>
                   <br />
                 </blockquote>
                 <figcaption class="text-center lg:text-left">
                   <div class="text-indigo-500">Sword Art Online</div>
-                  <div class="text-slate-700 dark:text-slate-500">
-                    2023 / 09 / 11
-                  </div>
+                  <div class="text-slate-700 dark:text-slate-500">2023 / 09 / 11</div>
                 </figcaption>
               </div>
             </div>
@@ -220,19 +188,15 @@ function Photographs() {
                 {/* <div className="overflow-clip object-contain text-[0.5rem] sm:text-[0.65rem] md:text-[0.75rem] lg:text-[0.85rem] xl:text-[0.85rem] 2xl:text-[1rem] mx-auto lg:mx-0 md:p-3 text-justify p-2 md:text-left font-light w-[88%] md:py-3"> */}
                 <blockquote>
                   <p class="">
-                    "But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happiness."
+                    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system, and expound the actual teachings of the
+                    great explorer of the truth, the master-builder of human happiness."
                   </p>
                   <br />
                 </blockquote>
                 <figcaption class="text-center lg:text-left">
                   <div class="text-indigo-500">Sword Art Online</div>
-                  <div class="text-slate-700 dark:text-slate-500">
-                    2023 / 09 / 11
-                  </div>
+                  <div class="text-slate-700 dark:text-slate-500">2023 / 09 / 11</div>
                 </figcaption>
               </div>
             </div>

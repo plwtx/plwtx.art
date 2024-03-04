@@ -3,17 +3,14 @@ import "../../App.css";
 
 function Stickers() {
   return (
-    <div className="snap-y snap-mandatory scroll-smooth h-screen overflow-scroll overflow-x-hidden">
-      <div className="snap-start relative min-h-screen bg-len-Black">
+    <div className="snap-y snap-mandatory scroll-smooth h-dvh overflow-scroll overflow-x-hidden">
+      <div className="snap-start relative min-h-dvh bg-len-Black">
         {/* Code */}
         <div className="m-3 p-3 pt-64 border-3 border-len-White rounded-xl flex justify-center">
           <div className=" m-9 p-9 px-16 border border-len-White">
-            <h1 className=" text-len-Black bg-white text-center p-2 m-3 font-NJPBold skew-x-6">
-              Stickers
-            </h1>
+            <h1 className=" text-len-Black bg-white text-center p-2 m-3 font-NJPBold skew-x-6">Stickers</h1>
             <p className="bg-white text-len-Black font-NJPBold p-6 m-3 skew-x-6">
-              Stickers are currently unavailable but once they are they will be
-              displayed here.
+              Stickers are currently unavailable but once they are they will be displayed here.
             </p>
             <a
               href="/"

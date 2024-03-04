@@ -5,12 +5,10 @@ import zeroStickerWeb from "../img/stickers/sticker0.PNG";
 
 export default function EndLetter() {
   const current = new Date();
-  const date = `${current.getFullYear()}.${
-    current.getMonth() + 1
-  }.${current.getDate()}`;
+  const date = `${current.getFullYear()}.${current.getMonth() + 1}.${current.getDate()}`;
 
   return (
-    <div className="snap-start relative min-h-screen bg-len-Black">
+    <div className="snap-start relative min-h-dvh bg-len-Black">
       {/* ACHANGEL */}
       <div className="">
         <img
@@ -29,16 +27,12 @@ export default function EndLetter() {
       <div className="absolute bottom-0 left-0">
         {/* Album Boxes */}
         <div id="Letter" className="m-9 md:m-0 md:w-[38%] md:p-9 bg-len-Black">
-          <p className="text-[0.55rem] md:text-xl font-NJPMedium text-len-White">
-            かわいい人間、また会いましょう。
-          </p>
+          <p className="text-[0.55rem] md:text-xl font-NJPMedium text-len-White">かわいい人間、また会いましょう。</p>
           <p className="text-[0.55rem] md:text-[0.9rem] font-IMFellEnglishSC text-justify text-len-White">
-            Hi, please call me Len (though that's not my official name). I like
-            music, linguistics, flags, my friends, tanks and cute things. I also
-            like drawing (sometimes). My art is strictly forbidden as for NFT or
-            AI use. Otherwise, you can print them out (for personal use only),
-            post them, do whatever your heart desires (Perhaps use them as your
-            silly Instagram PFPs ! =^･-･^=). Please wish luck for me.
+            Hi, please call me Len (though that's not my official name). I like music, linguistics, flags, my friends,
+            tanks and cute things. I also like drawing (sometimes). My art is strictly forbidden as for NFT or AI use.
+            Otherwise, you can print them out (for personal use only), post them, do whatever your heart desires
+            (Perhaps use them as your silly Instagram PFPs ! =^･-･^=). Please wish luck for me.
           </p>
           <br />
           <div className="flex flex-row">
