@@ -1,1 +1,1 @@
-:<
+return to polska
